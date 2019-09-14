@@ -190,7 +190,7 @@ public class Survey extends AppCompatActivity {
             sizeText.setText("Please input a method");
             return;
         }
-        
+
         //calculate matches
 
         //send
