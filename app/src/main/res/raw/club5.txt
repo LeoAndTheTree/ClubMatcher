@@ -1,0 +1,6 @@
+NAME AB Comedy
+TAG social
+SIZE 20
+MEETINGTIME 4080 4120
+TIMECOM 60
+NOTES Comedy committee that organizes comedy entertainment to CMU students.

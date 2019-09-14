@@ -1,0 +1,6 @@
+NAME Actuarial Club
+TAG Finance
+SIZE 122
+MEETINGTIME 900 960
+TIMECOM 100
+NOTES Actuaries are business professionals who deal with managing the risk of financial loss. They often work for insurance companies since insurance is society's form of risk management; however they also may work for consulting firms. Being an actuary is consistently rated a top profession.

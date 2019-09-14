@@ -1,0 +1,6 @@
+NAME Applied Machine Learning Club
+TAG Programming Data
+SIZE 27
+MEETINGTIME 3900 4000
+TIMECOM 100
+NOTES The Applied Machine Learning Club focuses on providing opportunities for students to apply machine learning techniques to real-world data sets. 

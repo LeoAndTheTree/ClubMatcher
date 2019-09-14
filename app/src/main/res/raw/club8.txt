@@ -1,0 +1,6 @@
+NAME AB Lectures
+TAG Event
+SIZE 17
+MEETINGTIME 2550 2610
+TIMECOM 60
+NOTES Activities Board Lectures is a committee of the Activities Board whose purpose is to bring speakers of a variety backgrounds\'a0to CMU campus.

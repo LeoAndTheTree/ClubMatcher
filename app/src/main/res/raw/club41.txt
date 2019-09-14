@@ -1,0 +1,6 @@
+NAME ANVIL
+TAG Engineering Learning Building
+SIZE 58
+MEETINGTIME 5340 5400
+TIMECOM 60
+NOTES Anvil was created to bring more people into making by teaching them new skills and to help existing makers hone their skills, have access to more tools, and belong to a community that can support their work.

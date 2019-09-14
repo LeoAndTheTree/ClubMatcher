@@ -1,0 +1,6 @@
+NAME AB Tech
+TAG Technology Production Event Entertainment
+SIZE 76
+MEETINGTIME 8070 8190
+TIMECOM 60
+NOTES The Activities Board Technical Committee, commonly known as AB Tech, is the student organization charged with handling the technical production of Carnegie Mellon sponsored events.
