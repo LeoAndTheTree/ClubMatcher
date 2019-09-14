@@ -1,0 +1,6 @@
+NAME Committee on Student Organizations
+TAG Student-Government 
+SIZE 47
+MEETINGTIME 8460 8519
+TIMECOM 60
+NOTES 

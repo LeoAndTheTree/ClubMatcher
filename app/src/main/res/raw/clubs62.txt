@@ -1,0 +1,6 @@
+NAME Graduate Student Assembly
+TAG Student-Government Techonology 
+SIZE 22
+MEETINGTIME 5340 5399
+TIMECOM 60
+NOTES 

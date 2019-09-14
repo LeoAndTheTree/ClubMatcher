@@ -1,0 +1,6 @@
+NAME Emerging Leaders
+TAG AnnualCampusEvent 
+SIZE 19
+MEETINGTIME 11280 11339
+TIMECOM 60
+NOTES 

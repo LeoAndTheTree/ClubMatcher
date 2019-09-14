@@ -1,0 +1,6 @@
+NAME Baseball Club
+TAG Sports-Martial Arts 
+SIZE 88
+MEETINGTIME 5370 5429
+TIMECOM 60
+NOTES 

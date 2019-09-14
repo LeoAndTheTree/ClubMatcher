@@ -1,0 +1,6 @@
+NAME Aerospace Club
+TAG Professional-Academic 
+SIZE 54
+MEETINGTIME 1200 1259
+TIMECOM 60
+NOTES 

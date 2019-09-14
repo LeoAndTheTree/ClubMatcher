@@ -1,6 +1,0 @@
-NAME Alexander Hamilton Society (AHS)
-TAG Debate Politics
-SIZE 20
-MEETINGTIME 4000 4060
-TIMECOM 60
-NOTES Alexander Hamilton Society (AHS) is an independent, non-partisan, not-for-profit membership organization dedicated to promoting constructive debate on basic principles and contemporary issues in foreign, economic, and national security policy.

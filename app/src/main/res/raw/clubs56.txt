@@ -1,0 +1,6 @@
+NAME AB Cafe
+TAG GeneralInterestAndInvolvement 
+SIZE 43
+MEETINGTIME 6930 6989
+TIMECOM 60
+NOTES 

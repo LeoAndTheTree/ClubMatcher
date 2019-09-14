@@ -62,7 +62,21 @@ public class Survey extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_survey);
 
-        final List<String> list = Arrays.asList("Anime", "Music", "Gaming", "Sports", "Math", "Computer Science", "Art");
+        final List<String> list = Arrays.asList("Political-Activism",
+                "Religious-Spiritual",
+                "GeneralInterestAndInvolvement",
+                "Multicultural",
+                "Student-Government",
+                "Sports-Martial Arts",
+                "Professional-Academic",
+                "Techonology",
+                "GreekLife",
+                "Service-Philanthropy",
+                "AnnualCampusEvent",
+                "Gender-LGBT",
+                "Gaming",
+                "MediaAndPublications",
+                "Performance-Artistic");
         final List<KeyPairBoolData> listArray0 = new ArrayList<>();
 
         for (int i = 0; i < list.size(); i++) {
@@ -177,11 +191,12 @@ public class Survey extends AppCompatActivity {
     }
 
     public void enterResults(View v) throws IOException{
+
         //attach information for clubs
         ArrayList<Club> clubs = new ArrayList<>();
 
-        for (int i = 1; i <= 10; i++){
-            String file = "club" + i;
+        for (int i = 1; i <= 143; i++){
+            String file = "clubs" + i;
             InputStream ins = getResources().openRawResource(
                     getResources().getIdentifier(file,
                             "raw", getPackageName()));

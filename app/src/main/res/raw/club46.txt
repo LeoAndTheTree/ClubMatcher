@@ -1,6 +1,0 @@
-NAME Asian Christian Fellowship
-TAG Religion Culture
-SIZE 30
-MEETINGTIME 9960 10080
-TIMECOM 60
-NOTES ACF is a tight-knit, small-group based fellowship that spans Carnegie Mellon and the University of Pittsburgh. 

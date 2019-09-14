@@ -1,0 +1,6 @@
+NAME Big Straw Magazine
+TAG MediaAndPublications 
+SIZE 20
+MEETINGTIME 5430 5549
+TIMECOM 120
+NOTES 

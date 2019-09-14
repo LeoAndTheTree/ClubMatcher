@@ -1,6 +1,0 @@
-NAME Arab Student Organization
-TAG Culture
-SIZE 31
-MEETINGTIME 6780 6840
-TIMECOM 60
-NOTES Re-founded in March of 2007, the Arab Student Organization (ASO) is a non-political student organization whose objective is to create an awareness of the different Arab cultures through the sponsoring of Arab social and cultural activities.

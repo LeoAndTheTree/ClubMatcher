@@ -1,0 +1,6 @@
+NAME Alpha Kappa Delta Phi 
+TAG GreekLife 
+SIZE 88
+MEETINGTIME 1110 1229
+TIMECOM 120
+NOTES 

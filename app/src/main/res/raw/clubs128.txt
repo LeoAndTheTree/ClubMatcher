@@ -1,0 +1,6 @@
+NAME Alpha Kappa Psi Professional Business Fraternity
+TAG Professional-Academic 
+SIZE 24
+MEETINGTIME 6930 7049
+TIMECOM 120
+NOTES 

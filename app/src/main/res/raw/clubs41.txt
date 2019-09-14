@@ -1,0 +1,6 @@
+NAME Chinese Students and Scholars Association
+TAG Multicultural 
+SIZE 72
+MEETINGTIME 6840 6899
+TIMECOM 60
+NOTES 

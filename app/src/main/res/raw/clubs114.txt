@@ -1,0 +1,6 @@
+NAME Office of the Dean of Student Affairs
+TAG Gaming 
+SIZE 13
+MEETINGTIME 4080 4139
+TIMECOM 60
+NOTES 

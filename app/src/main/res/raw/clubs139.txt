@@ -1,0 +1,6 @@
+NAME Carnegie Mellon Tricking Club
+TAG Sports-Martial Arts 
+SIZE 22
+MEETINGTIME 9630 9689
+TIMECOM 60
+NOTES 

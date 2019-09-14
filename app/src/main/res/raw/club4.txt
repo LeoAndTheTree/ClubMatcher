@@ -1,6 +1,0 @@
-NAME AB Coffeehouse
-TAG social
-SIZE 30
-MEETINGTIME 4020 4080
-TIMECOM 60
-NOTES A permanent committee that provides medium-priced musical entertainment to all CMU students.

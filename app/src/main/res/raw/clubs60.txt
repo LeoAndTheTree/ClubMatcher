@@ -1,0 +1,6 @@
+NAME MOSAIC: A Conference on Intersectionality
+TAG Gender-LGBT AnnualCampusEvent 
+SIZE 84
+MEETINGTIME 5580 5639
+TIMECOM 60
+NOTES 

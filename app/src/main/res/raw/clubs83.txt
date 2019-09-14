@@ -1,0 +1,6 @@
+NAME AB Comedy
+TAG GeneralInterestAndInvolvement 
+SIZE 64
+MEETINGTIME 2430 2549
+TIMECOM 120
+NOTES 

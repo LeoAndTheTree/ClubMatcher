@@ -1,0 +1,6 @@
+NAME American Institute of Architecture Students
+TAG Professional-Academic 
+SIZE 22
+MEETINGTIME 3960 4019
+TIMECOM 60
+NOTES 

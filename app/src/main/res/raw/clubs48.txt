@@ -1,0 +1,6 @@
+NAME Animal Welfare Club
+TAG Service-Philanthropy Sports-Martial Arts 
+SIZE 41
+MEETINGTIME 6870 6929
+TIMECOM 60
+NOTES 

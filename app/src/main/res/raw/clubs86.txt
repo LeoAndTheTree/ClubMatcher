@@ -1,0 +1,6 @@
+NAME CMU International Film Festival
+TAG Performance-Artistic 
+SIZE 55
+MEETINGTIME 1290 1409
+TIMECOM 120
+NOTES 

@@ -1,0 +1,6 @@
+NAME Central Church Student Fellowship
+TAG Religious-Spiritual 
+SIZE 67
+MEETINGTIME 8400 8459
+TIMECOM 60
+NOTES 

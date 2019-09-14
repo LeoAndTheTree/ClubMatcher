@@ -1,0 +1,6 @@
+NAME AB Coffeehouse
+TAG GeneralInterestAndInvolvement 
+SIZE 51
+MEETINGTIME 11340 11459
+TIMECOM 120
+NOTES 

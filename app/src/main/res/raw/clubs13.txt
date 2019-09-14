@@ -1,0 +1,6 @@
+NAME 195 Nations: CMU's United Nations Association
+TAG Political-Activism 
+SIZE 18
+MEETINGTIME 3960 4019
+TIMECOM 60
+NOTES 

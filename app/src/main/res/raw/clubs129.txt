@@ -1,0 +1,6 @@
+NAME Student Body Vice President for Organizations
+TAG Techonology Student-Government 
+SIZE 69
+MEETINGTIME 6960 7079
+TIMECOM 120
+NOTES 

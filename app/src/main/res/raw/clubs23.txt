@@ -1,0 +1,6 @@
+NAME AB Concerts
+TAG GeneralInterestAndInvolvement 
+SIZE 95
+MEETINGTIME 5340 5399
+TIMECOM 60
+NOTES 

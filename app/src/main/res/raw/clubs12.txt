@@ -1,0 +1,6 @@
+NAME Applied Machine Learning Club
+TAG Techonology 
+SIZE 45
+MEETINGTIME 9600 9659
+TIMECOM 60
+NOTES 
