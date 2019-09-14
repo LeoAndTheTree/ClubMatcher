@@ -11,154 +11,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fce9d3ba-3b29-4104-817a-974703d5dccd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_pratikbutani_MultiSelectSpinner__SNAPSHOT_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_pratikbutani_MultiSelectSpinner__SNAPSHOT_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/clubmaker/Club.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/clubmaker/Club.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/clubmaker/Matcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/clubmaker/Matcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/clubmaker/MoreInformation.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/clubmaker/MoreInformation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/clubmaker/Results.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/clubmaker/Results.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/clubmaker/Survey.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/clubmaker/Survey.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs10.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs10.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs100.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs100.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs101.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs101.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs102.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs102.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs103.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs103.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs104.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs104.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs105.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs105.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs106.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs106.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs107.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs107.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs108.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs108.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs109.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs109.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs11.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs11.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs110.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs110.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs111.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs111.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs112.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs112.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs113.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs113.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs114.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs114.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs115.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs115.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs116.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs116.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs117.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs117.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs118.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs118.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs119.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs119.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs12.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs12.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs120.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs120.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs121.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs121.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs122.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs122.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs123.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs123.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs124.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs124.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs125.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs125.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs126.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs126.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs127.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs127.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs128.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs128.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs129.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs129.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs13.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs13.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs130.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs130.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs131.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs131.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs132.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs132.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs133.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs133.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs134.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs134.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs135.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs135.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs136.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs136.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs137.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs137.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs138.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs138.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs139.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs139.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs14.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs14.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs140.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs140.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs141.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs141.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs142.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs142.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs143.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs143.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs15.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs15.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs16.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs16.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs17.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs17.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs18.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs18.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs19.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs19.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs20.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs20.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs21.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs22.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs22.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs23.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs23.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs24.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs24.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs25.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs25.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs26.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs26.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs27.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs27.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs28.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs28.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs29.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs29.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs30.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs30.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs31.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs31.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs32.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs32.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs33.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs33.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs34.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs34.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs35.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs35.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs36.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs36.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs37.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs37.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs38.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs38.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs39.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs39.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs4.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs40.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs40.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs41.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs41.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs42.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs42.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs43.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs43.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs44.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs44.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs45.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs45.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs46.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs46.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs47.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs47.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs48.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs48.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs49.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs49.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs5.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs50.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs50.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs51.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs51.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs52.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs52.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs53.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs53.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs54.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs54.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs55.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs55.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs56.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs56.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs57.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs57.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs58.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs58.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs59.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs59.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs6.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs60.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs60.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs61.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs61.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs62.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs62.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs63.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs63.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs64.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs64.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs65.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs65.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs66.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs66.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs67.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs67.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs68.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs68.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs69.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs69.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs7.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs7.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs70.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs70.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs71.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs71.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs72.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs72.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs73.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs73.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs74.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs74.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs75.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs75.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs76.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs76.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs77.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs77.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs78.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs78.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs79.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs79.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs8.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs80.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs80.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs81.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs81.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs82.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs82.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs83.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs83.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs84.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs84.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs85.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs85.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs86.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs86.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs87.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs87.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs88.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs88.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs89.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs89.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs9.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs9.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs90.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs90.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs91.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs91.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs92.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs92.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs93.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs93.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs94.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs94.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs95.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs95.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs96.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs96.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs97.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs97.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs98.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs98.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/clubs99.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/clubs99.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_results.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -182,7 +39,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/clubmaker/Survey.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state relative-caret-position="2640">
               <caret line="228" column="8" selection-start-line="228" selection-start-column="8" selection-end-line="228" selection-end-column="8" />
               <folding>
                 <element signature="method#pickCalendar#0;class#Survey#0" />
@@ -195,33 +52,47 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/clubmaker/Results.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="45" column="28" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/clubmaker/Matcher.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
-              <folding>
-                <element signature="e#1042#1050#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="260">
+              <caret line="36" column="72" lean-forward="true" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="72" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/clubmaker/Matcher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-45">
+              <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/clubmaker/MoreInformation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_results.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="233">
+              <caret line="68" column="39" lean-forward="true" selection-start-line="68" selection-start-column="39" selection-end-line="68" selection-end-column="39" />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/clubmaker/Club.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="172" column="42" selection-start-line="172" selection-start-column="42" selection-end-line="172" selection-end-column="42" />
+            <state relative-caret-position="2220">
+              <caret line="178" column="33" selection-start-line="178" selection-start-column="33" selection-end-line="178" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#5331#5332#0" expanded="true" />
-                <element signature="e#5381#5382#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -230,7 +101,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/clubmaker/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
+            <state relative-caret-position="300">
               <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -272,10 +143,12 @@
         <option value="$PROJECT_DIR$/app/src/main/res/raw/club10.txt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/clubmaker/ICSReader.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/clubmaker/Student.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/clubmaker/Survey.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/clubmaker/Club.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/clubmaker/Matcher.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/clubmaker/Survey.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_results.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/clubmaker/Results.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/clubmaker/MoreInformation.java" />
       </list>
     </option>
   </component>
@@ -344,7 +217,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -372,7 +246,7 @@
               <item name="Club Maker" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="raw" type="ddeffd01:AndroidResFolderTypeNode" />
+              <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
             </path>
             <path>
               <item name="Club Maker" type="1abcf292:AndroidViewProjectNode" />
@@ -382,11 +256,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/raw" />
   </component>
@@ -505,13 +379,13 @@
       <window_info id="Resources Explorer" order="7" />
       <window_info id="Capture Tool" order="8" />
       <window_info anchor="bottom" id="Run" order="0" />
-      <window_info anchor="bottom" id="Logcat" order="1" visible="true" weight="0.32932332" />
+      <window_info anchor="bottom" id="Logcat" order="1" weight="0.32932332" />
       <window_info anchor="bottom" id="TODO" order="2" weight="0.32932332" />
       <window_info anchor="bottom" id="Debug" order="3" />
       <window_info anchor="bottom" id="Terminal" order="4" weight="0.32932332" />
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="6" weight="0.32932332" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.17443609" />
+      <window_info anchor="bottom" id="Build" order="7" visible="true" weight="0.17443609" />
       <window_info anchor="bottom" id="Android Profiler" order="8" weight="0.32932332" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.32932332" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
@@ -523,17 +397,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_club_input.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="73" lean-forward="true" selection-start-line="28" selection-start-column="73" selection-end-line="28" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -579,14 +442,6 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_results.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="59" column="4" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="4" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/raw/clubs103.txt">
       <provider selected="true" editor-type-id="text-editor" />
@@ -693,19 +548,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/clubmaker/Student.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/raw/clubs23.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/clubmaker/Survey.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
+        <state relative-caret-position="2640">
           <caret line="228" column="8" selection-start-line="228" selection-start-column="8" selection-end-line="228" selection-end-column="8" />
           <folding>
             <element signature="method#pickCalendar#0;class#Survey#0" />
@@ -714,39 +566,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/clubmaker/Results.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="45" column="28" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/clubmaker/Club.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="172" column="42" selection-start-line="172" selection-start-column="42" selection-end-line="172" selection-end-column="42" />
+        <state relative-caret-position="2220">
+          <caret line="178" column="33" selection-start-line="178" selection-start-column="33" selection-end-line="178" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#5331#5332#0" expanded="true" />
-            <element signature="e#5381#5382#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/raw/clubs23.txt">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/clubmaker/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="300">
+          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_more_information.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_results.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="68" column="39" lean-forward="true" selection-start-line="68" selection-start-column="39" selection-end-line="68" selection-end-column="39" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/clubmaker/Results.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="36" column="72" lean-forward="true" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="72" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/clubmaker/Matcher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
-          <folding>
-            <element signature="e#1042#1050#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-45">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/clubmaker/MoreInformation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
         </state>
       </provider>
     </entry>
