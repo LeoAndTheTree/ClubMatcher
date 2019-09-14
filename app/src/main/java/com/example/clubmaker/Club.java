@@ -42,6 +42,15 @@ public class Club
     {
         setName(name);
     }
+    club(String name, int[] meetingTime, ArrayList<String> tags, int size, int timeCommitment, String notes)
+    {
+        setName(name);
+        clubMeetingTime = meetingTime;
+        setTags(tags);
+        setClubSize(size);
+        setTimeCommitment(timeCommitment);
+        setClubNotes(notes);
+    }
 
     void setName(String name)
     {
