@@ -222,6 +222,15 @@ public class Survey extends AppCompatActivity {
             clubPreference[i] = output1.get(i);
         }
 
+        String[] days = new String[output3.size()];
+        for(int i = 0; i < output3.size(); i++){
+            days[i] = output3.get(i);
+        }
+
+        if(!student.hasSchedule()){
+            student.setSchedule(ICSReader.generateCalendar(days));
+        }
+
         student.setTypeOfClub(clubPreference);
         try{
         Matcher matcher = new Matcher (clubs, student);
