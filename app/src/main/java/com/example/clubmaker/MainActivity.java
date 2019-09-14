@@ -27,8 +27,6 @@ public class MainActivity extends AppCompatActivity {
 
     private static final int READ_REQUEST_CODE = 42;
     private TextView displayICS = null;
-    private Calendar c = Calendar.getInstance();
-    private SimpleDateFormat match = new SimpleDateFormat("yyyy/M/dd");
 
     private ICSReader reader = new ICSReader();
 
@@ -65,7 +63,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public void onActivityResult(int requestCode, int resultCode,
                                  Intent resultData) {
-        reader.onActivityResult(requestCode, resultCode, resultData);
 
         // The ACTION_OPEN_DOCUMENT intent was sent with the request code
         // READ_REQUEST_CODE. If the request code seen here doesn't match, it's the
@@ -84,71 +81,14 @@ public class MainActivity extends AppCompatActivity {
             try{
                 String output = readTextFromUri(uri);
                 //displayICS.setText(output);
-                ArrayList<int[]> calsses = parseICS(output);
+                ArrayList<int[]> calsses = reader.parseICS(output);
                 //displayICS.setText(calsses.get(0)[0] + " " + calsses.get(0)[1]);
             } catch (IOException e) {}
         }
     }
 
-    private ArrayList<int[]> parseICS(String input){
-        Reader inputString = new StringReader(input);
-        BufferedReader reader = new BufferedReader(inputString);
-        ArrayList<int[]> output = new ArrayList<>();
-        try{
-            String line = "";
-            String year = "2000";
-            String month = "11";
-            String day = "15";
-            int hour = 0;
-            int minute = 0;
-            int day_of_week = 0;
-            int fminFromMon = 0;
-            int sminFromMon = 0;
-            while((line = reader.readLine()) != null){
-                int split = line.indexOf(':');
-                if(split != -1){
-                    switch(line.substring(0,split)){
-                        case "DTSTART":
-                            year = line.substring(split+1, split+5);
-                            month = line.substring(split+5, split+7);
-                            day = line.substring(split+7, split+9);
-                            c.setTime(match.parse(year + "/" + month + "/" + day));
 
-                            hour = Integer.parseInt(line.substring(split+10, split+12));
-                            minute = Integer.parseInt(line.substring(split+12, split+14));
-                            day_of_week = (c.get(Calendar.DAY_OF_WEEK) -2 + 7) % 7;
-                            fminFromMon = day_of_week * 1440 + hour * 60 + minute;
-                            //displayICS.append(fminFromMon + "\n");
-                            //displayICS.append(day_of_week + " " + hour + " " + minute + "\n");
-                            //displayICS.setText(c.toString());
-                            //displayICS.setText(year + " " + month + " " + day + " " + day_of_week.toString());
-                            break;
-                        case "DTEND":
-                            year = line.substring(split+1, split+5);
-                            month = line.substring(split+5, split+7);
-                            day = line.substring(split+7, split+9);
-                            c.setTime(match.parse(year + "/" + month + "/" + day));
-
-                            hour = Integer.parseInt(line.substring(split+10, split+12));
-                            minute = Integer.parseInt(line.substring(split+12, split+14));
-                            day_of_week = (c.get(Calendar.DAY_OF_WEEK) -2 + 7) % 7;
-                            sminFromMon = day_of_week * 1440 + hour * 60 + minute;
-                            //displayICS.append(day_of_week + " " + hour + " " + minute + "\n");
-                            //displayICS.append(fminFromMon + " " + sminFromMon + "\n");
-                            int[] o = {fminFromMon, sminFromMon};
-                            output.add(o);
-                            break;
-                        default: break;
-                    }
-                }
-            }
-        } catch(IOException e1){
-
-        } catch(ParseException e2){}
-        return output;
-    }
-
-    private String readTextFromUri(Uri uri) throws IOException {
+    protected String readTextFromUri(Uri uri) throws IOException {
         StringBuilder stringBuilder = new StringBuilder();
         try (InputStream inputStream =
                      getContentResolver().openInputStream(uri);
@@ -161,4 +101,5 @@ public class MainActivity extends AppCompatActivity {
         }
         return stringBuilder.toString();
     }
+
 }
