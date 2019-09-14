@@ -1,0 +1,6 @@
+NAME University Health Services
+TAG Gaming 
+SIZE 40
+MEETINGTIME 2520 2639
+TIMECOM 120
+NOTES 

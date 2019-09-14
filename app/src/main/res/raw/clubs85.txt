@@ -1,0 +1,6 @@
+NAME Artist Alley Club
+TAG Performance-Artistic 
+SIZE 16
+MEETINGTIME 4200 4259
+TIMECOM 60
+NOTES 

@@ -1,6 +1,0 @@
-NAME Astronomy
-TAG Science Astronomy
-SIZE 147
-MEETINGTIME 5580 5800
-TIMECOM 60
-NOTES Carnegie Mellon University's Astronomy Club was founded in 1969. Since then, our club has flourished. We organize various events and hold regular weekly meetings during the Fall and Spring semesters.

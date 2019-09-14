@@ -41,7 +41,7 @@ public class Matcher {
 
         double score4 = candidate.tagSatisfied(tags);
 
-        double finalScore = hyperparams[4]*score4*(hyperparams[0]*score1)+ hyperparams[1]*score2 + hyperparams[3]*score3;
+        double finalScore = hyperparams[3]*score4*(hyperparams[0]*score1)+ hyperparams[1]*score2 + hyperparams[2]*score3;
 
         return finalScore;
     }

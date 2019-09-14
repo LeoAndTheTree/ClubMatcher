@@ -1,6 +1,0 @@
-NAME AB Films
-TAG Film Event Entertainment
-SIZE 127
-MEETINGTIME 8430 8550
-TIMECOM 120
-NOTES AB Films is a sub-committee of the Activities Board. AB Films screens\'a0movies in McConomy Auditorium in the Cohon University Center on Fridays, Saturdays, and Sundays nearly every weekend.

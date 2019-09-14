@@ -1,0 +1,6 @@
+NAME Alpha Kappa Alpha Sorority Inc. 
+TAG GreekLife 
+SIZE 17
+MEETINGTIME 3900 4019
+TIMECOM 120
+NOTES 

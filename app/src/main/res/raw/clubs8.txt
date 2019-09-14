@@ -1,0 +1,6 @@
+NAME Badminton Club
+TAG Sports-Martial Arts 
+SIZE 38
+MEETINGTIME 5340 5399
+TIMECOM 60
+NOTES 

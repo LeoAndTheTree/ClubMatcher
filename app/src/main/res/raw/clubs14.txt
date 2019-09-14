@@ -1,0 +1,6 @@
+NAME American Marketing Association
+TAG Professional-Academic 
+SIZE 18
+MEETINGTIME 5460 5579
+TIMECOM 120
+NOTES 

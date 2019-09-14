@@ -1,0 +1,6 @@
+NAME Office of International Education
+TAG Gaming 
+SIZE 36
+MEETINGTIME 8400 8459
+TIMECOM 60
+NOTES 

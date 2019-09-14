@@ -1,0 +1,6 @@
+NAME Agape Christian Ministry
+TAG Religious-Spiritual 
+SIZE 26
+MEETINGTIME 2580 2699
+TIMECOM 120
+NOTES 

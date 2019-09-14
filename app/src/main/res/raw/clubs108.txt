@@ -1,0 +1,6 @@
+NAME Carnegie Mellon University Model United Nations 
+TAG Political-Activism 
+SIZE 14
+MEETINGTIME 2640 2759
+TIMECOM 120
+NOTES 

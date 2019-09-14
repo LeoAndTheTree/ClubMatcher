@@ -1,6 +1,0 @@
-NAME Asian Students Association
-TAG Culture
-SIZE 186
-MEETINGTIME 2580 2640
-TIMECOM 60
-NOTES Founded in 1990, the Asian Students Association serves as the largest Asian culture affinity group at Carnegie Mellon. 

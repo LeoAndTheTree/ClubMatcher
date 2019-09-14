@@ -1,0 +1,6 @@
+NAME Carnegie Mellon Muay Thai Club
+TAG Sports-Martial Arts 
+SIZE 75
+MEETINGTIME 8460 8519
+TIMECOM 60
+NOTES 

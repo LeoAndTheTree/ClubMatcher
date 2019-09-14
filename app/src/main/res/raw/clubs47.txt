@@ -1,0 +1,6 @@
+NAME Carnegie Mellon Dance Marathon
+TAG Service-Philanthropy Sports-Martial Arts 
+SIZE 65
+MEETINGTIME 8280 8339
+TIMECOM 60
+NOTES 

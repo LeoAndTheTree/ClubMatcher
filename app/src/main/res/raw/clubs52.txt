@@ -1,0 +1,6 @@
+NAME Arab Student Organization
+TAG Multicultural 
+SIZE 91
+MEETINGTIME 8520 8579
+TIMECOM 60
+NOTES 

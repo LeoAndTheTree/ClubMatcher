@@ -1,0 +1,6 @@
+NAME Carnegie Mellon Solar Racing
+TAG Techonology 
+SIZE 21
+MEETINGTIME 9690 9749
+TIMECOM 60
+NOTES 

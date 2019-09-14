@@ -1,0 +1,6 @@
+NAME Spark the Movement 
+TAG Political-Activism 
+SIZE 64
+MEETINGTIME 3900 3959
+TIMECOM 60
+NOTES 

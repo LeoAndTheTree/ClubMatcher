@@ -1,0 +1,6 @@
+NAME The Office of Residential Education
+TAG Gaming 
+SIZE 51
+MEETINGTIME 6720 6779
+TIMECOM 60
+NOTES 

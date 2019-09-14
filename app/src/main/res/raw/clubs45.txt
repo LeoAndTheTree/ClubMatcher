@@ -1,0 +1,6 @@
+NAME Student Body Vice President for Finance
+TAG Techonology Student-Government 
+SIZE 86
+MEETINGTIME 2700 2759
+TIMECOM 60
+NOTES 

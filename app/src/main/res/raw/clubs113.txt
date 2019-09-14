@@ -1,0 +1,6 @@
+NAME Pittsburgh Go Association
+TAG Gaming 
+SIZE 63
+MEETINGTIME 11280 11339
+TIMECOM 60
+NOTES 

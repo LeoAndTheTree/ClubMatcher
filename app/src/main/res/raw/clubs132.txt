@@ -1,0 +1,6 @@
+NAME AB Special Events
+TAG GeneralInterestAndInvolvement 
+SIZE 50
+MEETINGTIME 1170 1229
+TIMECOM 60
+NOTES 

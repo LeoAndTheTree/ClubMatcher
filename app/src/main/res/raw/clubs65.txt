@@ -1,0 +1,6 @@
+NAME Carnegie Mellon University Club Swimming
+TAG Sports-Martial Arts 
+SIZE 57
+MEETINGTIME 1230 1289
+TIMECOM 60
+NOTES 

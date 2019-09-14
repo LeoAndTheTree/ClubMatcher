@@ -1,0 +1,6 @@
+NAME CMU Magicians
+TAG Performance-Artistic 
+SIZE 66
+MEETINGTIME 8400 8519
+TIMECOM 120
+NOTES 

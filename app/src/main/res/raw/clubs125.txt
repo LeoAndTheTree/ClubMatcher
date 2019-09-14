@@ -1,0 +1,6 @@
+NAME Carnegie Mellon Racing
+TAG Techonology 
+SIZE 89
+MEETINGTIME 1080 1199
+TIMECOM 120
+NOTES 

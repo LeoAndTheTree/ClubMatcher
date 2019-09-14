@@ -1,0 +1,6 @@
+NAME Chinese Bible Study Fellowship
+TAG Religious-Spiritual 
+SIZE 62
+MEETINGTIME 11400 11519
+TIMECOM 120
+NOTES 

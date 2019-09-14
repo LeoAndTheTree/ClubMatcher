@@ -1,0 +1,6 @@
+NAME CCO Delta Ministries
+TAG Religious-Spiritual 
+SIZE 97
+MEETINGTIME 2550 2669
+TIMECOM 120
+NOTES 
