@@ -35,6 +35,9 @@ public class Results extends AppCompatActivity {
         choice5 = (Button) findViewById(R.id.button8);
 
         matcher = (Matcher) getIntent().getSerializableExtra("matcher");
+        if(matcher == null){
+            matcher = (Matcher) getIntent().getSerializableExtra("matcher2");
+        }
         //Log.i("matcher", matcher.toString());
         //ArrayList<Club> result;
         try{
