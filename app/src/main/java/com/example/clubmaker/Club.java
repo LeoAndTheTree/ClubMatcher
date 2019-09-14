@@ -1,7 +1,7 @@
 //this is a test java file
 import java.util.*;
 import java.lang.Math;
-public enum Tags {ANIME, GAMING, PIANO};
+public enum Tags {ANIME, GAMING, PIANO};//temp SHOULD DELETE AFTER TAGS ENUM CLASS IMPORTED
 
 
 /* setName(string name)
