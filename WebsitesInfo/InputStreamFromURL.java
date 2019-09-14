@@ -13,7 +13,7 @@ class InputStreamFromURL{
     public static void main(String[] args) throws IOException {
 
         // Make a URL to the web page
-        URL url = new URL("https://thebridge.cmu.edu/organizations");
+        URL url = new URL("https://raw.githubusercontent.com/LeoAndTheTree/CMUClub/master/Club1.txt");
 
         // Get the input stream through URL Connection
         URLConnection con = url.openConnection();
