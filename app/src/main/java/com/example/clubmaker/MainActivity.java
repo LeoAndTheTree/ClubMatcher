@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 
 import java.io.BufferedReader;
@@ -32,7 +33,7 @@ import com.androidbuts.multispinnerfilter.SpinnerListener;
 
 public class MainActivity extends AppCompatActivity {
 
-    //private TextView displayICS = null;
+    private EditText getComment = null;
 
 
     @Override
@@ -40,13 +41,18 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //displayICS = (TextView) findViewById (R.id.textView2);
+
+        getComment = (EditText) findViewById (R.id.editText3);
         //displayICS.setText("");
         //Button pickCalendar = (Button) findViewById(R.id.button);
 
     }
     public void enterSurvey(View v){
+        String s = getComment.getText().toString();
+        Intent sendComment = new Intent(MainActivity.this, Survey.class);
+        sendComment.putExtra("comment", s);
         startActivity(new Intent(MainActivity.this, Survey.class));
+        startActivity(sendComment);
     }
 
 }

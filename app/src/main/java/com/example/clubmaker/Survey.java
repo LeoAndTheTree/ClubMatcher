@@ -58,10 +58,14 @@ public class Survey extends AppCompatActivity {
     ArrayList<String> output1 = new ArrayList<>();
     ArrayList<String> output3 = new ArrayList<>();
 
+    String comment = null;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_survey);
+
+        comment = (String) getIntent().getSerializableExtra("comment");
 
         final List<String> list = Arrays.asList("Political-Activism",
                 "Religious-Spiritual",
@@ -220,6 +224,8 @@ public class Survey extends AppCompatActivity {
         }
 
         student.setTypeOfClub(clubPreference);
+
+        student.setComment(comment);
 
 
         Matcher matcher = new Matcher (clubs, student);

@@ -55,32 +55,53 @@ public class Results extends AppCompatActivity {
     public void enterMoreInformation1(View v) {
         Intent sendClub = new Intent (Results.this, MoreInformation.class);
         sendClub.putExtra("club", result.get(0));
-        startActivity(sendClub);
+
+        Intent sendMatcher = new Intent (Results.this, MoreInformation.class);
+        sendMatcher.putExtra("matcher", matcher);
+
         startActivity(new Intent(Results.this, MoreInformation.class));
+        startActivity(sendMatcher);
+        startActivity(sendClub);
     }
     public void enterMoreInformation2(View v) {
         Intent sendClub = new Intent (Results.this, MoreInformation.class);
         sendClub.putExtra("club", result.get(1));
-        startActivity(sendClub);
+
+        Intent sendMatcher = new Intent (Results.this, MoreInformation.class);
+        sendMatcher.putExtra("matcher", matcher);
         startActivity(new Intent(Results.this, MoreInformation.class));
+        startActivity(sendMatcher);
+        startActivity(sendClub);
     }
     public void enterMoreInformation3(View v) {
         Intent sendClub = new Intent (Results.this, MoreInformation.class);
         sendClub.putExtra("club", result.get(2));
-        startActivity(sendClub);
+
+        Intent sendMatcher = new Intent (Results.this, MoreInformation.class);
+        sendMatcher.putExtra("matcher", matcher);
         startActivity(new Intent(Results.this, MoreInformation.class));
+        startActivity(sendMatcher);
+        startActivity(sendClub);
     }
     public void enterMoreInformation4(View v) {
         Intent sendClub = new Intent (Results.this, MoreInformation.class);
         sendClub.putExtra("club", result.get(3));
-        startActivity(sendClub);
+
+        Intent sendMatcher = new Intent (Results.this, MoreInformation.class);
+        sendMatcher.putExtra("matcher", matcher);
         startActivity(new Intent(Results.this, MoreInformation.class));
+        startActivity(sendMatcher);
+        startActivity(sendClub);
     }
     public void enterMoreInformation5(View v) {
         Intent sendClub = new Intent (Results.this, MoreInformation.class);
         sendClub.putExtra("club", result.get(4));
-        startActivity(sendClub);
+
+        Intent sendMatcher = new Intent (Results.this, MoreInformation.class);
+        sendMatcher.putExtra("matcher", matcher);
         startActivity(new Intent(Results.this, MoreInformation.class));
+        startActivity(sendMatcher);
+        startActivity(sendClub);
     }
 }
 
