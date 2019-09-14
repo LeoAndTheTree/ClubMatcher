@@ -6,4 +6,25 @@
     android:layout_height="match_parent"
     tools:context=".Results">
 
+    <fragment
+        android:id="@+id/list"
+        android:name="com.example.news.ArticleListFragment"
+        android:layout_width="363dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewer" />
+
+    <fragment
+        android:id="@+id/viewer"
+        android:name="com.example.news.ArticleReaderFragment"
+        android:layout_width="0dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="16dp"
+        android:layout_weight="2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
