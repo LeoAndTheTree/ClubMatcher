@@ -70,7 +70,7 @@ public class Survey extends AppCompatActivity implements Serializable {
                 "Student-Government",
                 "Sports-Martial Arts",
                 "Professional-Academic",
-                "Techonology",
+                "Technology",
                 "GreekLife",
                 "Service-Philanthropy",
                 "AnnualCampusEvent",
@@ -90,19 +90,6 @@ public class Survey extends AppCompatActivity implements Serializable {
 
         hourText = (EditText) findViewById(R.id.inputnumber);
         sizeText = (EditText) findViewById(R.id.inputnumber2);
-
-
-
-        final List<String> list1 = Arrays.asList("Resume buffing", "Fun", "Social activity", "Exploration", "Continued hobby", "Learning");
-        final List<KeyPairBoolData> listArray1 = new ArrayList<>();
-
-        for (int i = 0; i < list1.size(); i++) {
-            KeyPairBoolData h = new KeyPairBoolData();
-            h.setId(i + 1);
-            h.setName(list1.get(i));
-            h.setSelected(false);
-            listArray1.add(h);
-        }
 
         final List<String> list2 = Arrays.asList("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday");
         final List<KeyPairBoolData> listArray2 = new ArrayList<>();
