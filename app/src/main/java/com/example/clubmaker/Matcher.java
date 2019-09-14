@@ -33,7 +33,7 @@ public class Matcher {
         int size = student.clubsize;
         ArrayList<String> tags = new ArrayList<String>(Arrays.asList(student.typeOfClub));
 
-        double score1 = -1*(size - candidate.clubSize)/candidate.clubSize;
+        double score1 = -1*Math.abs((double)size - candidate.clubSize)/candidate.clubSize;
 
         double score2 = candidate.commitmentCap(commit);
 
@@ -41,7 +41,7 @@ public class Matcher {
 
         double score4 = candidate.tagSatisfied(tags);
 
-        double finalScore = hyperparams[4]*score4*(hyperparams[0]*score1 + hyperparams[1]*score2 + hyperparams[3]*score3);
+        double finalScore = hyperparams[4]*score4*(hyperparams[0]*score1)+ hyperparams[1]*score2 + hyperparams[3]*score3;
 
         return finalScore;
     }
