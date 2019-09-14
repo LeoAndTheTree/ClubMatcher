@@ -4,7 +4,7 @@ package com.example.clubmaker;
 import java.util.*;
 import java.lang.Math;
 import java.util.ArrayList;
-
+import java.io.*;
 
 
 /* setName(string name)
@@ -36,6 +36,7 @@ public class Club
     public int clubSize;
     public int clubTimeCommitment;
     public String clubNotes;
+    public double score;
 
     Club(){}
     Club(String name)
@@ -175,4 +176,43 @@ public class Club
     {
         return commit - clubTimeCommitment;
     }
+    
+    public static Club loadClubList(String directpath) throws IOException
+    {
+        Club newClub = new Club();
+        File dir = new File(directpath);
+        if(dir != null)
+        {
+            BufferedReader bf = new BufferedReader(new FileReader(dir));
+            StringTokenizer st;
+
+            newClub.setName(bf.readLine().substring(5));
+            st = new StringTokenizer(bf.readLine());
+
+            st.nextToken();
+            ArrayList<String> tagList = new ArrayList<String>();
+            while(st.hasMoreTokens())
+            {
+                tagList.add(st.nextToken());
+            }
+            newClub.setTags(tagList);
+            st = new StringTokenizer(bf.readLine());
+
+            st.nextToken(); newClub.setClubSize(Integer.parseInt(st.nextToken()));
+            st = new StringTokenizer(bf.readLine());
+            
+            st.nextToken();
+            int[] startend = {Integer.parseInt(st.nextToken()), Integer.parseInt(st.nextToken())};
+            newClub.clubMeetingTime=(startend);
+            st = new StringTokenizer(bf.readLine());
+
+            st.nextToken(); newClub.setTimeCommitment(Integer.parseInt(st.nextToken()));
+            
+            newClub.setClubNotes(bf.readLine().substring(6));
+
+            bf.close();
+        }
+        return newClub;
+    }
+
 }
