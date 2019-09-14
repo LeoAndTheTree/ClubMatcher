@@ -30,6 +30,8 @@ public class MainActivity extends AppCompatActivity {
     private Calendar c = Calendar.getInstance();
     private SimpleDateFormat match = new SimpleDateFormat("yyyy/M/dd");
 
+    private ICSReader reader = new ICSReader();
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -63,6 +65,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public void onActivityResult(int requestCode, int resultCode,
                                  Intent resultData) {
+        reader.onActivityResult(requestCode, resultCode, resultData);
 
         // The ACTION_OPEN_DOCUMENT intent was sent with the request code
         // READ_REQUEST_CODE. If the request code seen here doesn't match, it's the
