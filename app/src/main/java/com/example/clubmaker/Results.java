@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -33,14 +34,16 @@ public class Results extends AppCompatActivity {
         choice5 = (Button) findViewById(R.id.button8);
 
         matcher = (Matcher) getIntent().getSerializableExtra("matcher");
+        //Log.i("matcher", matcher.toString());
+        ArrayList<Club> result;
         try{
-            ArrayList<Club> result = matcher.topClubs(5);
+            result = matcher.topClubs(5);
             choice1.setText(result.get(0).getName());
             choice2.setText(result.get(1).getName());
             choice3.setText(result.get(2).getName());
             choice4.setText(result.get(3).getName());
             choice5.setText(result.get(4).getName());
-        }catch(Error e){
+        }catch(Exception e){
             choice1.setText(e.getMessage());
         }
     }

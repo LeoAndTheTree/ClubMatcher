@@ -226,6 +226,8 @@ public class Survey extends AppCompatActivity {
 
         Intent sendMatcher = new Intent(Survey.this, Results.class);
         sendMatcher.putExtra("matcher", matcher);
+        startActivity(new Intent(Survey.this, Results.class));
+
         startActivity(sendMatcher);
 
 
@@ -234,6 +236,5 @@ public class Survey extends AppCompatActivity {
 
         //send
 
-        startActivity(new Intent(Survey.this, Results.class));
     }
 }

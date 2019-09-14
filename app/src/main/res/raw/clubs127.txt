@@ -1,6 +1,6 @@
-NAME Asian Christian Fellowship
-TAG Religious-Spiritual 
-SIZE 56
-MEETINGTIME 8190 8249
+NAME Alpha Epsilon Delta
+TAG Professional-Academic 
+SIZE 86
+MEETINGTIME 6960 7019
 TIMECOM 60
-NOTES 
+NOTES Alpha Epsilon Delta is a National Health Pre-professional Honor Society dedicated to the encouragement and recognition of excellence in pre-professional health scholarship. For more information, please contact Elaine Xu: elainex@andrew.cmu.edu .

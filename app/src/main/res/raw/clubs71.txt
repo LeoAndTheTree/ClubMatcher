@@ -1,6 +1,6 @@
-NAME Aerospace Club
-TAG Professional-Academic 
-SIZE 54
-MEETINGTIME 1200 1259
-TIMECOM 60
-NOTES 
+NAME Carnegie Mellon University Club Squash
+TAG Sports-Martial Arts 
+SIZE 24
+MEETINGTIME 5340 5459
+TIMECOM 120
+NOTES Carnegie Mellon University Club Squash is a recreational club in pursuit of the establishment of a competitive men’s and women’s squash team to participate in intercollegiate matches and tournaments. For more information, please contact Rachel Hagani: rhagani@andrew.cmu.edu .

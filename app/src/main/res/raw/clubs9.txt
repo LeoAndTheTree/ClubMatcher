@@ -1,6 +1,6 @@
-NAME CMU Energy Science and Innovation Club
-TAG Techonology 
-SIZE 91
-MEETINGTIME 3870 3989
+NAME cmuTV
+TAG Political-Activism Performance-Artistic MediaAndPublications Multicultural 
+SIZE 14
+MEETINGTIME 9660 9779
 TIMECOM 120
-NOTES 
+NOTES CMU's Video Production Superheroes For more information, please contact Michaela Laurencin: mlaurenc@andrew.cmu.edu .

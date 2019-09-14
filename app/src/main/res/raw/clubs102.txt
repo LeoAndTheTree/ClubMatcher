@@ -1,6 +1,6 @@
-NAME AB Tech
-TAG GeneralInterestAndInvolvement 
-SIZE 72
-MEETINGTIME 9870 9929
+NAME Black Graduate Students Organization
+TAG Multicultural 
+SIZE 47
+MEETINGTIME 11220 11279
 TIMECOM 60
-NOTES 
+NOTES Uniting and advocating for Black graduate students across Carnegie Mellon's campus.  For more information, please contact Ernest Kabuye: ekabuye@andrew.cmu.edu .

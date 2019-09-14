@@ -1,6 +1,6 @@
-NAME Magic@CMU
-TAG Gaming 
-SIZE 44
-MEETINGTIME 6960 7019
+NAME The Thistle
+TAG Performance-Artistic Political-Activism Multicultural MediaAndPublications 
+SIZE 25
+MEETINGTIME 2670 2729
 TIMECOM 60
-NOTES 
+NOTES Founded in 1905, The Thistle is Carnegie Mellon's yearbook. We cover and commemorate life on campus and around the Carnegie Mellon community. For more information, please contact Daniela Acacio: dacacio@andrew.cmu.edu .

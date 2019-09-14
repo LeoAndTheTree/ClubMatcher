@@ -1,6 +1,6 @@
-NAME Carnegie Mellon Dance Marathon
-TAG Service-Philanthropy Sports-Martial Arts 
-SIZE 65
-MEETINGTIME 8280 8339
+NAME AB Underground
+TAG GeneralInterestAndInvolvement 
+SIZE 26
+MEETINGTIME 11340 11399
 TIMECOM 60
-NOTES 
+NOTES Concerts in the Underground For more information, please contact Jessica Rance: jrance@andrew.cmu.edu .

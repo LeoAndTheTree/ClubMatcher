@@ -4,6 +4,7 @@ package com.example.clubmaker;
 import android.content.Context;
 import android.content.res.Resources;
 import android.renderscript.ScriptGroup;
+import android.util.Log;
 
 import java.lang.reflect.Array;
 import java.net.URL;
@@ -172,20 +173,22 @@ public class Club implements Serializable
         {
             for(int j = 0; j < clubTags.size(); j++)
             {
-                if(desired.get(i) == clubTags.get(j))
+                if(desired.get(i).equals(clubTags.get(j)))
                 {
                     totalTag++;
+                    Log.i("tag", "added");
+                    //int x = 3/0;
                     break;
                 }
             }
         }
-        return ((double) totalTag) / desired.size();
+        return ((double) totalTag);
     }
 
     //return int minutes, negative if clubTimeCommitment exceeds their time
     int commitmentCap(int commit)
     {
-        return commit - clubTimeCommitment;
+        return Math.min(commit - clubTimeCommitment, 0);
     }
 
     public static ArrayList<Club> loadClubList() throws IOException{
