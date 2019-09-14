@@ -2,6 +2,15 @@ package com.example.clubmaker;
 
 import java.util.ArrayList;
 
+/*
+* public void setTimeCommitment(int timeCommitment);
+* public int getTimeCommitment();
+* public void setClasses(ArrayList<int[]> classes);
+* public ArrayList<int[]> getClasses();
+* public void setClubsize (int clubsize);
+* public int getClubsize (clubsize);
+* */
+
 public class Student {
     int timeCommitment = 0;
     ArrayList<int[]> classes;
