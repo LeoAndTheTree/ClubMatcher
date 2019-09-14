@@ -1,0 +1,6 @@
+NAME Aerospace Club
+TAG Engineering Learning
+SIZE 45
+MEETINGTIME 9780 9900
+TIMECOM 120
+NOTES The Aerospace Club, formerly known as the American Institute of Aeronautics Astronautics (AIAA), is Carnegie Mellon University’s resident group of students dedicated to the study of aeronautical engineering.

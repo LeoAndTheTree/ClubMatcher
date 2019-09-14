@@ -1,0 +1,6 @@
+NAME AB Concerts
+TAG social
+SIZE 30
+MEETINGTIME 4140 4200
+TIMECOM 60
+NOTES A permanent committee that organizes concerts at a subsidized price to students.

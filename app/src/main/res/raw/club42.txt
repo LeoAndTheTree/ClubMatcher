@@ -1,0 +1,6 @@
+NAME Apex
+TAG Buggy Building
+SIZE 76
+MEETINGTIME 2460 2520
+TIMECOM 60
+NOTES Apex began in 2012 when a group of friends living in the Rez on Fifth had the crazy idea of starting a buggy team.
