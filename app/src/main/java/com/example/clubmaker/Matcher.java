@@ -7,7 +7,7 @@ import java.util.ArrayList;
 public class Matcher {
     private ArrayList<Club> clubs;
     private Student student;
-    private int[] hyperparams = new int[]{1,1,1,1};
+    private int[] hyperparams = new int[]{1,1,1,50};
 
     Matcher(ArrayList<Club> inClubs, Student inStudent){
         clubs = inClubs;
