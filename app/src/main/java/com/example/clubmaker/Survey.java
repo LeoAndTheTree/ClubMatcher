@@ -32,8 +32,8 @@ public class Survey extends AppCompatActivity {
         setContentView(R.layout.activity_survey);
 
         EditText num = (EditText) findViewById(R.id.inputnumber);
-        String value = num.getText().toString();
-        int finalValue = Integer.parseInt(value);
+//        String value = num.getText().toString();
+//        int finalValue = Integer.parseInt(value);
 
         TextView textView = (TextView) findViewById(R.id.textView);
         textView.setText("value");
