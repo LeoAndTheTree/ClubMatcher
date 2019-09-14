@@ -18,11 +18,47 @@ public class Matcher implements Serializable {
         student = inStudent;
     }
 
+    public int getIndexOfLargest( double[] array )
+    {
+        if ( array == null || array.length == 0 ) return -1;
+
+        int largest = 0;
+        for ( int i = 1; i < array.length; i++ )
+        {
+            if ( array[i] > array[largest] ) largest = i;
+        }
+        return largest;
+    }
+
     ArrayList<Club> topClubs(int topk){
         Log.i("club", clubs.get(0).toString());
+
+        List<List<String>> documents = new ArrayList<List<String>>();
+
         for (Club candidate: clubs){
             candidate.score = heuristic(candidate);
+            documents.add(candidate.description);
         }
+
+        List<String> student_des = student.comment;
+
+        documents.add(student_des);
+
+        TFIDF calc = new TFIDF();
+
+        double[] tfscores = new double[clubs.size()];
+
+        for (int i =0; i< student_des.size(); i++)
+        {
+            for (int j =0; j< documents.size(); j++) {
+                tfscores[j] = calc.calc_TFIDF(student_des, documents, student_des.get(j));
+            }
+
+            int indexoflargest = getIndexOfLargest(tfscores);
+            double curr_s = clubs.get(indexoflargest).score;
+            clubs.get(indexoflargest).score = curr_s+ Math.abs(curr_s*0.01);
+        }
+
         Collections.sort(clubs, new ClubComparator());
 
         ArrayList<Club> tclubs = new ArrayList<Club>();
