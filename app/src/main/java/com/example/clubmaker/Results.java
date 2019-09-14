@@ -21,6 +21,7 @@ public class Results extends AppCompatActivity {
     Button choice4;
     Button choice5;
     Matcher matcher;
+    ArrayList<Club> result;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,7 +36,7 @@ public class Results extends AppCompatActivity {
 
         matcher = (Matcher) getIntent().getSerializableExtra("matcher");
         //Log.i("matcher", matcher.toString());
-        ArrayList<Club> result;
+        //ArrayList<Club> result;
         try{
             result = matcher.topClubs(5);
             choice1.setText(result.get(0).getName());
@@ -50,7 +51,35 @@ public class Results extends AppCompatActivity {
     public void enterSurvey(View v) {
         startActivity(new Intent(Results.this, Survey.class));
     }
-    public void enterMoreInformation(View v) {
+
+    public void enterMoreInformation1(View v) {
+        Intent sendClub = new Intent (Results.this, MoreInformation.class);
+        sendClub.putExtra("club", result.get(0));
+        startActivity(sendClub);
+        startActivity(new Intent(Results.this, MoreInformation.class));
+    }
+    public void enterMoreInformation2(View v) {
+        Intent sendClub = new Intent (Results.this, MoreInformation.class);
+        sendClub.putExtra("club", result.get(1));
+        startActivity(sendClub);
+        startActivity(new Intent(Results.this, MoreInformation.class));
+    }
+    public void enterMoreInformation3(View v) {
+        Intent sendClub = new Intent (Results.this, MoreInformation.class);
+        sendClub.putExtra("club", result.get(2));
+        startActivity(sendClub);
+        startActivity(new Intent(Results.this, MoreInformation.class));
+    }
+    public void enterMoreInformation4(View v) {
+        Intent sendClub = new Intent (Results.this, MoreInformation.class);
+        sendClub.putExtra("club", result.get(3));
+        startActivity(sendClub);
+        startActivity(new Intent(Results.this, MoreInformation.class));
+    }
+    public void enterMoreInformation5(View v) {
+        Intent sendClub = new Intent (Results.this, MoreInformation.class);
+        sendClub.putExtra("club", result.get(4));
+        startActivity(sendClub);
         startActivity(new Intent(Results.this, MoreInformation.class));
     }
 }
