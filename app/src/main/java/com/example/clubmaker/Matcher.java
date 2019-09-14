@@ -1,10 +1,11 @@
 package com.example.clubmaker;
 
+import java.io.Serializable;
 import java.util.*;
 import java.lang.Math;
 import java.util.ArrayList;
 
-public class Matcher {
+public class Matcher implements Serializable {
     private ArrayList<Club> clubs;
     private Student student;
     private int[] hyperparams = new int[]{1,1,1,1};
