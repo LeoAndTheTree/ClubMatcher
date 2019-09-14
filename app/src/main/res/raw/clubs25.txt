@@ -1,6 +1,6 @@
-NAME Ballroom Dance Club
-TAG Performance-Artistic 
-SIZE 97
-MEETINGTIME 2700 2819
-TIMECOM 120
-NOTES 
+NAME Vivid Cosmetics Magazine
+TAG MediaAndPublications Performance-Artistic Political-Activism Multicultural 
+SIZE 53
+MEETINGTIME 9630 9689
+TIMECOM 60
+NOTES Vivid Cosmetics Magazine is aimed to publish monthly articles online about a variety of topics in cosmetics including current trends and technology, science behind cosmetics and more. For more information, please contact Minji Kim: minjik3@andrew.cmu.edu .

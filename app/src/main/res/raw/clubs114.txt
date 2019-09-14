@@ -1,6 +1,6 @@
-NAME Office of the Dean of Student Affairs
-TAG Gaming 
-SIZE 13
-MEETINGTIME 4080 4139
+NAME CMU Blockchain Group
+TAG Techonology 
+SIZE 11
+MEETINGTIME 11280 11339
 TIMECOM 60
-NOTES 
+NOTES The CMU Blockchain Group is focused on educating and collaborating with undergraduate and graduate students, professors, researchers, blockchain companies and industry consortium to promote the development of blockchain technology. For more information, please contact Irene Lin: iwl@andrew.cmu.edu .

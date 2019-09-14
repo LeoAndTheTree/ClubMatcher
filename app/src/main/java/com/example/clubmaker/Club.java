@@ -172,7 +172,7 @@ public class Club implements Serializable
         {
             for(int j = 0; j < clubTags.size(); j++)
             {
-                if(desired.get(i) == clubTags.get(j))
+                if(desired.get(i) == (clubTags.get(j)))
                 {
                     totalTag++;
                     break;
@@ -185,7 +185,7 @@ public class Club implements Serializable
     //return int minutes, negative if clubTimeCommitment exceeds their time
     int commitmentCap(int commit)
     {
-        return commit - clubTimeCommitment;
+        return Math.min(commit - clubTimeCommitment, 0);
     }
 
     public static ArrayList<Club> loadClubList() throws IOException{

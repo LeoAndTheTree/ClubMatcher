@@ -1,6 +1,6 @@
-NAME AB Comedy
-TAG GeneralInterestAndInvolvement 
-SIZE 64
-MEETINGTIME 2430 2549
+NAME All University Orchestra
+TAG Performance-Artistic 
+SIZE 27
+MEETINGTIME 7020 7139
 TIMECOM 120
-NOTES 
+NOTES A community of CMU undergrads, graduate students, staff, and faculty who love to make music. Everyone is welcome to participate! For more information, please contact Melodee Li: msli@andrew.cmu.edu .

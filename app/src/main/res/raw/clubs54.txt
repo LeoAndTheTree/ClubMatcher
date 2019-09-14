@@ -1,6 +1,6 @@
-NAME Colors@CMU
-TAG Multicultural 
-SIZE 59
-MEETINGTIME 3990 4049
-TIMECOM 60
-NOTES 
+NAME Student Body Vice President for Finance
+TAG Student-Government Techonology 
+SIZE 99
+MEETINGTIME 4020 4139
+TIMECOM 120
+NOTES Founded in 1905 For more information, please contact Frank Fan: wfan@andrew.cmu.edu .

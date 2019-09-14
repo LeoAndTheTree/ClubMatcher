@@ -1,6 +1,6 @@
-NAME CMU Magicians
-TAG Performance-Artistic 
-SIZE 66
-MEETINGTIME 8400 8519
+NAME Her Campus
+TAG Political-Activism Multicultural MediaAndPublications Performance-Artistic 
+SIZE 97
+MEETINGTIME 4020 4139
 TIMECOM 120
-NOTES 
+NOTES The purpose of the Her Campus CMU organization is to provide an online hub for CMU’s women by providing content that is both a resource and a source of entertainment, highlighting campus news, events, interesting students, faculty, alumni, and fashion. For more information, please contact Rebecca Enright: renright@andrew.cmu.edu .
