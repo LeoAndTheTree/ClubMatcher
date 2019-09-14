@@ -55,7 +55,8 @@ public class Matcher implements Serializable {
             }
 
             int indexoflargest = getIndexOfLargest(tfscores);
-            clubs.get(indexoflargest).score = clubs.get(indexoflargest).score*1.01;
+            double curr_s = clubs.get(indexoflargest).score;
+            clubs.get(indexoflargest).score = curr_s+ Math.abs(curr_s*0.01);
         }
 
         Collections.sort(clubs, new ClubComparator());
