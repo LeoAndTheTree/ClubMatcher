@@ -36,6 +36,7 @@ public class Club
     public int clubSize;
     public int clubTimeCommitment;
     public String clubNotes;
+    public double score;
 
     Club(){}
     Club(String name)
