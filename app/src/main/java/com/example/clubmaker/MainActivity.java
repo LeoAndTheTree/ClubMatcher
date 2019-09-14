@@ -28,6 +28,8 @@ public class MainActivity extends AppCompatActivity {
     private static final int READ_REQUEST_CODE = 42;
     private TextView displayICS = null;
 
+    private Student student = new Student ();
+
     private ICSReader reader = new ICSReader();
 
     @Override
@@ -81,9 +83,12 @@ public class MainActivity extends AppCompatActivity {
             try{
                 String output = readTextFromUri(uri);
                 //displayICS.setText(output);
-                ArrayList<int[]> calsses = reader.parseICS(output);
+                student.classes = reader.parseICS(output);
                 //displayICS.setText(calsses.get(0)[0] + " " + calsses.get(0)[1]);
             } catch (IOException e) {}
+            for(int i = 0; i < student.classes.size(); i++){
+                displayICS.append(student.classes.get(i)[0] + " " + student.classes.get(i)[1] + "\n");
+            }
         }
     }
 
