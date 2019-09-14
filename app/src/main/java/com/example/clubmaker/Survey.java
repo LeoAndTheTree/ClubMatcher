@@ -30,17 +30,7 @@ public class Survey extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_survey);
-
-<<<<<<< HEAD
-=======
-        EditText num = (EditText) findViewById(R.id.inputnumber);
-//        String value = num.getText().toString();
-//        int finalValue = Integer.parseInt(value);
-
-        TextView textView = (TextView) findViewById(R.id.textView);
-        textView.setText("value");
-
->>>>>>> 20f118b022b39b1e27c3c61d5e3b79142503f4d8
+        
         final List<String> list = Arrays.asList("Anime", "Music", "Gaming", "Sports", "Math", "Computer Science", "Art");
         final List<KeyPairBoolData> listArray0 = new ArrayList<>();
 
