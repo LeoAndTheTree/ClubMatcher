@@ -1,7 +1,10 @@
 //this is a test java file
+package com.example.clubmaker;
+
 import java.util.*;
 import java.lang.Math;
-public enum Tags {ANIME, GAMING, PIANO};
+import java.util.ArrayList;
+
 
 
 /* setName(string name)
@@ -24,9 +27,12 @@ public enum Tags {ANIME, GAMING, PIANO};
 */
 public class Club
 {
+
+    public enum Tags {ANIME, GAMING, PIANO}
+
     private String clubName;
     private int[] clubMeetingTime = new int[2];
-    private Arraylist<Tags> clubTags = new ArrayList<Tags>();
+    private ArrayList<Tags> clubTags = new ArrayList<Tags>();
     private int clubSize;
     private int clubTimeCommitment;
     private String clubNotes;
@@ -51,7 +57,7 @@ public class Club
     {
         for(int i = 0; i < append.size(); i++)
         {
-            clubTags.insert(append.get(i));
+            clubTags.add(append.get(i));
         }
     }
 
@@ -119,20 +125,20 @@ public class Club
     int timeConflict(ArrayList<int[]> schedule)
     {
         int totalMinutes = 0;
-        for(int i = 0; i < schedule.length; i++)
+        for(int i = 0; i < schedule.size(); i++)
         {
-            int curConflict = min(clubMeetingTime[1], schedule.get(i)[1]) - max(clubMeetingTime[0], schedule.get(i)[0]) + 1;
+            int curConflict = Math.min(clubMeetingTime[1], schedule.get(i)[1]) - Math.max(clubMeetingTime[0], schedule.get(i)[0]) + 1;
             if(curConflict < 0) curConflict = 0;
             totalMinutes += curConflict;
         }
-        return totalConflict;
+        return totalMinutes;
     }
 
     //returns the difference in sizes, divided by the size requested by the user
     double sizeConflict(int desired)
     {
         if(desired == 0) return (double)clubSize;
-        return abs((double)desired - clubSize) / desired;
+        return Math.abs((double)desired - clubSize) / desired;
     }
 
     //returns the percent of tags satisfied
@@ -141,7 +147,7 @@ public class Club
     {
         if(desired.size() == 0) return (double)1;
         int totalTag = 0;
-        for(i = 0; i < desired.size(); i++)
+        for(int i = 0; i < desired.size(); i++)
         {
             for(int j = 0; j < clubTags.size(); j++)
             {
