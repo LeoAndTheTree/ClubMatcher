@@ -42,21 +42,22 @@ public class Matcher implements Serializable {
 
         List<String> student_des = student.comment;
 
-        documents.add(student_des);
+        if(student_des.size()>0) {
+            documents.add(student_des);
 
-        TFIDF calc = new TFIDF();
+            TFIDF calc = new TFIDF();
 
-        double[] tfscores = new double[clubs.size()];
+            double[] tfscores = new double[clubs.size()];
 
-        for (int i =0; i< student_des.size(); i++)
-        {
-            for (int j =0; j< clubs.size(); j++) {
-                tfscores[j] = calc.calc_TFIDF(documents.get(j), documents, student_des.get(i));
+            for (int i = 0; i < student_des.size(); i++) {
+                for (int j = 0; j < clubs.size(); j++) {
+                    tfscores[j] = calc.calc_TFIDF(documents.get(j), documents, student_des.get(i));
+                }
+
+                int indexoflargest = largestInd(tfscores);
+                double curr_s = clubs.get(indexoflargest).score;
+                clubs.get(indexoflargest).score = curr_s + Math.abs(curr_s * 0.05);
             }
-
-            int indexoflargest = largestInd(tfscores);
-            double curr_s = clubs.get(indexoflargest).score;
-            clubs.get(indexoflargest).score = curr_s+ Math.abs(curr_s*0.01);
         }
 
         Collections.sort(clubs, new ClubComparator());
