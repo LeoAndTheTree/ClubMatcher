@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
 
         //displayICS = (TextView) findViewById (R.id.textView2);
         //displayICS.setText("");
-        Button pickCalendar = (Button) findViewById(R.id.button);
+        //Button pickCalendar = (Button) findViewById(R.id.button);
 
     }
     public void enterSurvey(View v){
