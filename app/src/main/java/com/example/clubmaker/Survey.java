@@ -120,10 +120,10 @@ public class Survey extends AppCompatActivity {
             try{
                 String output = readTextFromUri(uri);
                 //displayICS.setText(output);
-                student.classes = reader.parseICS(output);
+                student.schedule = reader.parseICS(output);
                 //displayICS.setText(calsses.get(0)[0] + " " + calsses.get(0)[1]);
             } catch (IOException e) {}
-            for(int i = 0; i < student.classes.size(); i++){
+            for(int i = 0; i < student.schedule.size(); i++){
                 //displayICS.append(student.classes.get(i)[0] + " " + student.classes.get(i)[1] + "\n");
             }
         }
