@@ -8,6 +8,8 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.EditText;
+import android.widget.TextView;
 
 import com.androidbuts.multispinnerfilter.KeyPairBoolData;
 import com.androidbuts.multispinnerfilter.MultiSpinnerSearch;
@@ -28,6 +30,13 @@ public class Survey extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_survey);
+
+        EditText num = (EditText) findViewById(R.id.inputnumber);
+        String value = num.getText().toString();
+        int finalValue = Integer.parseInt(value);
+
+        TextView textView = (TextView) findViewById(R.id.textView);
+        textView.setText("value");
 
         final List<String> list = Arrays.asList("Anime", "Music", "Gaming", "Sports", "Math", "Computer Science", "Art");
         final List<KeyPairBoolData> listArray0 = new ArrayList<>();
