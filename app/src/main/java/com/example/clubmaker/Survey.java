@@ -20,13 +20,14 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.io.Serializable;
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Objects;
 
-public class Survey extends AppCompatActivity {
+public class Survey extends AppCompatActivity implements Serializable {
     private static final String TAG = "Survey";
 
 
@@ -232,12 +233,11 @@ public class Survey extends AppCompatActivity {
         }
 
         student.setTypeOfClub(clubPreference);
-        try{
         Matcher matcher = new Matcher (clubs, student);
+        Intent sendMatcher = new Intent();
+        sendMatcher.putExtra("matcher", matcher);
 
-        sizeText.setText(matcher.topClubs(1).get(0).getName());}catch(Exception e){
-            sizeText.setText(e.getMessage());
-        }
+
 
         return;
 
