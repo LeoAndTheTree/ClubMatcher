@@ -45,6 +45,7 @@ public class Club implements Serializable
     public int clubTimeCommitment;
     public String clubNotes;
     public double score;
+    public List<String> description;
 
     public String toString(){
         return getName() + " " + clubMeetingTime[0] + " - " + clubMeetingTime[1] + " " + clubTags.get(0) + " size(" + clubSize + ") timecom(" + clubTimeCommitment + ")";
@@ -136,6 +137,13 @@ public class Club implements Serializable
     void setClubNotes(String notes)
     {
         clubNotes = notes;
+        List<String> temp = new ArrayList<>();
+        StringTokenizer st = new StringTokenizer(notes);
+        while(st.hasMoreTokens())
+        {
+            temp.add(st.nextToken());
+        }
+        description = temp;
     }
 
     String getClubNotes()
