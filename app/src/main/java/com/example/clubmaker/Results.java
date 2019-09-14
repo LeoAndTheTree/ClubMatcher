@@ -47,4 +47,11 @@ public class Results extends AppCompatActivity {
             choice1.setText(e.getMessage());
         }
     }
+    public void enterSurvey(View v) {
+        startActivity(new Intent(Results.this, Survey.class));
+    }
+    public void enterMoreInformation(View v) {
+        startActivity(new Intent(Results.this, MoreInformation.class));
+    }
 }
+
