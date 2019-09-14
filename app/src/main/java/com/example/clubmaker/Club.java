@@ -42,7 +42,7 @@ public class Club
     {
         setName(name);
     }
-    club(String name, int[] meetingTime, ArrayList<String> tags, int size, int timeCommitment, String notes)
+    Club(String name, int[] meetingTime, ArrayList<String> tags, int size, int timeCommitment, String notes)
     {
         setName(name);
         clubMeetingTime = meetingTime;
