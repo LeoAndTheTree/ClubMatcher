@@ -51,7 +51,11 @@ public class Survey extends AppCompatActivity {
 
         startActivityForResult(intent, READ_REQUEST_CODE);
     }
+    EditText hourText;
     EditText sizeText;
+
+    ArrayList<String> output1 = new ArrayList<>();
+    ArrayList<String> output3 = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -69,7 +73,8 @@ public class Survey extends AppCompatActivity {
             listArray0.add(h);
         }
 
-        sizeText = (EditText) findViewById(R.id.inputnumber);
+        hourText = (EditText) findViewById(R.id.inputnumber);
+        sizeText = (EditText) findViewById(R.id.inputnumber2);
 
 
 
@@ -94,7 +99,7 @@ public class Survey extends AppCompatActivity {
             h.setSelected(false);
             listArray2.add(h);
         }
-        final ArrayList<String> output1 = new ArrayList<>();
+
         MultiSpinnerSearch searchMultiSpinnerUnlimited = (MultiSpinnerSearch) findViewById(R.id.searchMultiSpinnerUnlimited);
         searchMultiSpinnerUnlimited.setItems(listArray0, -1, new SpinnerListener() {
             @Override
@@ -107,7 +112,7 @@ public class Survey extends AppCompatActivity {
                 }
             }
         });
-        final ArrayList<String> output3 = new ArrayList<>();
+
         MultiSpinnerSearch searchMultiSpinnerUnlimited3 = (MultiSpinnerSearch) findViewById(R.id.searchMultiSpinnerUnlimited3);
         searchMultiSpinnerUnlimited3.setItems(listArray2, -1, new SpinnerListener() {
             @Override
@@ -147,7 +152,7 @@ public class Survey extends AppCompatActivity {
             try{
                 String output = readTextFromUri(uri);
                 //displayICS.setText(output);
-                student.schedule = reader.parseICS(output);
+                student.setSchedule(reader.parseICS(output));
                 //displayICS.setText(calsses.get(0)[0] + " " + calsses.get(0)[1]);
             } catch (IOException e) {}
             for(int i = 0; i < student.schedule.size(); i++){
@@ -187,14 +192,35 @@ public class Survey extends AppCompatActivity {
         try{
         student.setClubsize(Integer.parseInt(sizeText.getText().toString()));
         } catch (Exception e){
-            sizeText.setText("Please input a method");
+            sizeText.setText("Please input a number");
             return;
         }
+        try{
+            student.setTimeCommitment(Integer.parseInt(hourText.getText().toString()) * 60);
+        } catch (Exception e){
+            sizeText.setText("Please input a number");
+            return;
+        }
+
+        String[] clubPreference = new String[output1.size()];
+        for(int i = 0; i < output1.size(); i++){
+            clubPreference[i] = output1.get(i);
+        }
+
+        student.setTypeOfClub(clubPreference);
+        try{
+        Matcher matcher = new Matcher (clubs, student);
+
+        sizeText.setText(matcher.topClubs(1).get(0).getName());}catch(Exception e){
+            sizeText.setText(e.getMessage());
+        }
+
+        return;
 
         //calculate matches
 
         //send
 
-        startActivity(new Intent(Survey.this, Results.class));
+        //startActivity(new Intent(Survey.this, Results.class));
     }
 }
