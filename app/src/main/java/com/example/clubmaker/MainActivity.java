@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
     private static final String TAG = "MainActivity";
 
     private static final int READ_REQUEST_CODE = 42;
-    private TextView displayICS = null;
+    //private TextView displayICS = null;
 
     private Student student = new Student ();
 
@@ -100,8 +100,8 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        displayICS = (TextView) findViewById (R.id.textView2);
-        displayICS.setText("");
+        //displayICS = (TextView) findViewById (R.id.textView2);
+        //displayICS.setText("");
         Button pickCalendar = (Button) findViewById(R.id.button);
 
     }
@@ -150,7 +150,7 @@ public class MainActivity extends AppCompatActivity {
                 //displayICS.setText(calsses.get(0)[0] + " " + calsses.get(0)[1]);
             } catch (IOException e) {}
             for(int i = 0; i < student.classes.size(); i++){
-                displayICS.append(student.classes.get(i)[0] + " " + student.classes.get(i)[1] + "\n");
+                //displayICS.append(student.classes.get(i)[0] + " " + student.classes.get(i)[1] + "\n");
             }
         }
     }
