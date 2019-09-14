@@ -28,7 +28,7 @@ import java.util.ArrayList;
 public class Club
 {
 
-    public enum Tags {ANIME, GAMING, PIANO}
+    public enum Tags {ANIME, GAMING, PIANO};//temp SHOULD DELETE AFTER TAGS ENUM CLASS IMPORTED
 
     private String clubName;
     private int[] clubMeetingTime = new int[2];
