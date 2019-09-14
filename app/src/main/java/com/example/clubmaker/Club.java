@@ -30,17 +30,26 @@ public class Club
 
     //public enum Tags = {Anime, Gaming, Piano};
 
-    private String clubName;
-    private int[] clubMeetingTime = new int[2];
-    private ArrayList<String> clubTags = new ArrayList<String>();
-    private int clubSize;
-    private int clubTimeCommitment;
-    private String clubNotes;
+    public String clubName;
+    public int[] clubMeetingTime = new int[2];
+    public ArrayList<String> clubTags = new ArrayList<String>();
+    public int clubSize;
+    public int clubTimeCommitment;
+    public String clubNotes;
 
     Club(){}
     Club(String name)
     {
         setName(name);
+    }
+    club(String name, int[] meetingTime, ArrayList<String> tags, int size, int timeCommitment, String notes)
+    {
+        setName(name);
+        clubMeetingTime = meetingTime;
+        setTags(tags);
+        setClubSize(size);
+        setTimeCommitment(timeCommitment);
+        setClubNotes(notes);
     }
 
     void setName(String name)
