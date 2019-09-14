@@ -11,7 +11,7 @@ public class Matcher implements Serializable {
     private ArrayList<Club> clubs;
     private Student student;
     //clubsize, time, conflict, satisfy
-    private int[] hyperparams = new int[]{1,1,1,10};
+    private int[] hyperparams = new int[]{10,1,1,40};
 
     Matcher(ArrayList<Club> inClubs, Student inStudent){
         clubs = inClubs;
@@ -47,10 +47,11 @@ public class Matcher implements Serializable {
         //minutes conflicting large number
         double score3 = -1*candidate.timeConflict(schedule);
 
-        //comment
+        //comment tags
         double score4 = candidate.tagSatisfied(tags);
 
-        double finalScore = hyperparams[3]*score4*(hyperparams[0]*score1)+ hyperparams[1]*score2 + hyperparams[2]*score3;
+        //tags * sizedifference +
+        double finalScore = hyperparams[3]*score4 + (hyperparams[0]*score1)+ hyperparams[1]*score2 + hyperparams[2]*score3;
 
         Log.i("indiv_scores", score1 + " " + score2 + " " +  score3 + " " +  score4);
 
