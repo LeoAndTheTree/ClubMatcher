@@ -18,7 +18,7 @@ public class Matcher implements Serializable {
         student = inStudent;
     }
 
-    public int getIndexOfLargest( double[] array )
+    public int largestInd( double[] array )
     {
         if ( array == null || array.length == 0 ) return -1;
 
@@ -50,11 +50,11 @@ public class Matcher implements Serializable {
 
         for (int i =0; i< student_des.size(); i++)
         {
-            for (int j =0; j< documents.size(); j++) {
-                tfscores[j] = calc.calc_TFIDF(student_des, documents, student_des.get(j));
+            for (int j =0; j< clubs.size(); j++) {
+                tfscores[j] = calc.calc_TFIDF(documents.get(j), documents, student_des.get(j));
             }
 
-            int indexoflargest = getIndexOfLargest(tfscores);
+            int indexoflargest = largestInd(tfscores);
             double curr_s = clubs.get(indexoflargest).score;
             clubs.get(indexoflargest).score = curr_s+ Math.abs(curr_s*0.01);
         }
