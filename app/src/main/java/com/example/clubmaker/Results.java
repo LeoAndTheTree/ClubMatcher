@@ -23,6 +23,20 @@ public class Results extends AppCompatActivity {
     Matcher matcher;
     ArrayList<Club> result;
 
+
+    @Override
+    protected void onRestart(){
+        super.onRestart();
+        matcher = (Matcher) getIntent().getSerializableExtra("matcher2");
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+            matcher = (Matcher) getIntent().getSerializableExtra("matcher2");
+
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -35,9 +49,6 @@ public class Results extends AppCompatActivity {
         choice5 = (Button) findViewById(R.id.button8);
 
         matcher = (Matcher) getIntent().getSerializableExtra("matcher");
-        if(matcher == null){
-            matcher = (Matcher) getIntent().getSerializableExtra("matcher2");
-        }
         //Log.i("matcher", matcher.toString());
         //ArrayList<Club> result;
         try{

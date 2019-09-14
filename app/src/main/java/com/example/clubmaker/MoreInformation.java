@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 
@@ -26,11 +27,13 @@ public class MoreInformation extends AppCompatActivity {
         club = (Club) getIntent().getSerializableExtra("club");
 
         matcher = (Matcher) getIntent().getSerializableExtra("matcher");
+        //Log.i("matcher", matcher.toString());
 
         clubName.setText(club.getName());
         clubInfo.setText(club.getClubNotes());
     }
     public void enterMain(View v) {
+
         Intent sendMatcher = new Intent(MoreInformation.this, Results.class);
 
         sendMatcher.putExtra("matcher2", matcher);
