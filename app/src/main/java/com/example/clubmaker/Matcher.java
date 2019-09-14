@@ -51,7 +51,7 @@ public class Matcher implements Serializable {
         for (int i =0; i< student_des.size(); i++)
         {
             for (int j =0; j< clubs.size(); j++) {
-                tfscores[j] = calc.calc_TFIDF(documents.get(j), documents, student_des.get(j));
+                tfscores[j] = calc.calc_TFIDF(documents.get(j), documents, student_des.get(i));
             }
 
             int indexoflargest = largestInd(tfscores);
