@@ -8,7 +8,8 @@ import java.util.ArrayList;
 public class Matcher implements Serializable {
     private ArrayList<Club> clubs;
     private Student student;
-    private int[] hyperparams = new int[]{1,1,1,1};
+    //clubsize, time, conflict, satisfy
+    private int[] hyperparams = new int[]{1,1,1,10};
 
     Matcher(ArrayList<Club> inClubs, Student inStudent){
         clubs = inClubs;
