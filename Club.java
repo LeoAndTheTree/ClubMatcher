@@ -3,6 +3,25 @@ import java.util.*;
 import java.lang.Math;
 public enum Tags {ANIME, GAMING, PIANO};
 
+
+/* setName(string name)
+ * setTags(ArrayList<Tags> append)
+ * setTimeCommitment(int minutes)
+ * setClubSize(int size)
+ * setMeetingTime(int day, int hour, int minute, int meetinglength) -- sets start and end time in integer minute format
+ * setClubNotes(String notes)
+ * getName() - returns name as string
+ * getTags() - returns Tags as ArrayList<Tags>
+ * getTimeCommitment() - returns int
+ * getClubSize() - return club size as int
+ * getClubNotes() - returns club notes as string
+ * getMeetingTime() - returns int[] meeting time in integer minute format
+ * readMeetingTime() - returns int[] time containing day of week, hour, minute, and meeting length
+ * timeConflict(ArrayList<int[]> schedule) - returns int minutes of conflict between club and schedule
+ * sizeConflict(int desired) - returns double difference in size over desired size
+ * tagSatisfied(ArrayList<Tags> desired) - returns percent of tags satisfied
+ * commitmentCap() - returns difference between club and user time, negative if club exceeds user commit time
+*/
 public class Club
 {
     private String clubName;
@@ -13,9 +32,9 @@ public class Club
     private String clubNotes;
 
     Club(){}
-    Club()
+    Club(String name)
     {
-        
+        setName(name);
     }
 
     void setName(String name)
@@ -61,18 +80,21 @@ public class Club
         return clubSize;
     }
 
+    //converts 
     void setMeetingTime(int day, int hour, int minute, int meetingLength)
     {
         clubMeetingTime[0] = ((day * 24) + hour) * 60 + minute;
         clubMeetingTime[1] = (clubMeetingTime[0] + meetingLength - 1) % 10080;
     }
 
+    //returns meeting time in integer format
     int[] getMeetingTime()
     {
         int[] copy = {clubMeetingTime[0], clubMeetingTime[1]};
         return copy;
     }
 
+    //returns day, hour, minute, and meeting length for the club
     int[] readMeetingTime()
     {
         int day = clubMeetingTime[0]/1440;
@@ -93,6 +115,7 @@ public class Club
         return clubNotes;
     }
 
+    //returns the minutes of conflict between the club and their schedule
     int timeConflict(ArrayList<int[]> schedule)
     {
         int totalMinutes = 0;
@@ -132,5 +155,9 @@ public class Club
         return ((double) totalTag) / desired.size();
     }
 
-
+    //return int minutes, negative if clubTimeCommitment exceeds their time
+    int commitmentCap(int commit)
+    {
+        return commit - clubTimeCommitment;
+    }
 }
