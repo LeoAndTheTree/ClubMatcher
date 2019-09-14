@@ -47,4 +47,8 @@ public class Results extends AppCompatActivity {
     public void enterSurvey(View v) {
         startActivity(new Intent(Results.this, Survey.class));
     }
+    public void enterMoreInformation(View v) {
+        startActivity(new Intent(Results.this, MoreInformation.class));
+    }
 }
+
