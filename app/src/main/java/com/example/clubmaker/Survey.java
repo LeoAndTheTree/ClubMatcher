@@ -31,13 +31,6 @@ public class Survey extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_survey);
 
-        EditText num = (EditText) findViewById(R.id.inputnumber);
-        String value = num.getText().toString();
-        int finalValue = Integer.parseInt(value);
-
-        TextView textView = (TextView) findViewById(R.id.textView);
-        textView.setText("value");
-
         final List<String> list = Arrays.asList("Anime", "Music", "Gaming", "Sports", "Math", "Computer Science", "Art");
         final List<KeyPairBoolData> listArray0 = new ArrayList<>();
 
@@ -49,6 +42,8 @@ public class Survey extends AppCompatActivity {
             listArray0.add(h);
         }
 
+
+
         final List<String> list1 = Arrays.asList("Resume buffing", "Fun", "Social activity", "Exploration", "Continued hobby", "Learning");
         final List<KeyPairBoolData> listArray1 = new ArrayList<>();
 
@@ -58,6 +53,17 @@ public class Survey extends AppCompatActivity {
             h.setName(list1.get(i));
             h.setSelected(false);
             listArray1.add(h);
+        }
+
+        final List<String> list2 = Arrays.asList("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday");
+        final List<KeyPairBoolData> listArray2 = new ArrayList<>();
+
+        for (int i = 0; i < list2.size(); i++) {
+            KeyPairBoolData h = new KeyPairBoolData();
+            h.setId(i + 1);
+            h.setName(list2.get(i));
+            h.setSelected(false);
+            listArray2.add(h);
         }
 
         MultiSpinnerSearch searchMultiSpinnerUnlimited = (MultiSpinnerSearch) findViewById(R.id.searchMultiSpinnerUnlimited);
@@ -73,6 +79,17 @@ public class Survey extends AppCompatActivity {
         });
         MultiSpinnerSearch searchMultiSpinnerUnlimited2 = (MultiSpinnerSearch) findViewById(R.id.searchMultiSpinnerUnlimited2);
         searchMultiSpinnerUnlimited2.setItems(listArray1, -1, new SpinnerListener() {
+            @Override
+            public void onItemsSelected(List<KeyPairBoolData> items) {
+                for (int i = 0; i < items.size(); i++) {
+                    if (items.get(i).isSelected()) {
+                        Log.i(TAG, i + " : " + items.get(i).getName() + " : " + items.get(i).isSelected());
+                    }
+                }
+            }
+        });
+        MultiSpinnerSearch searchMultiSpinnerUnlimited3 = (MultiSpinnerSearch) findViewById(R.id.searchMultiSpinnerUnlimited3);
+        searchMultiSpinnerUnlimited3.setItems(listArray2, -1, new SpinnerListener() {
             @Override
             public void onItemsSelected(List<KeyPairBoolData> items) {
                 for (int i = 0; i < items.size(); i++) {
