@@ -15,6 +15,7 @@
         android:layout_marginEnd="60dp"
         android:layout_marginRight="60dp"
         android:text="Upload calendar"
+        android:onClick="pickCalendar"
         app:layout_constraintBaseline_toBaselineOf="@+id/textView8"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView8" />
