@@ -50,24 +50,14 @@
         app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
     <TextView
-        android:id="@+id/textView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="1dp"
-        android:layout_marginLeft="1dp"
-        android:layout_marginTop="23dp"
-        android:text="Select your purposes for joining clubs"
-        app:layout_constraintStart_toStartOf="@+id/searchMultiSpinnerUnlimited2"
-        app:layout_constraintTop_toBottomOf="@+id/searchMultiSpinnerUnlimited" />
-
-    <TextView
         android:id="@+id/textView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="23dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="24dp"
         android:text="What days are preferable for meet-ups?"
-        app:layout_constraintStart_toStartOf="@+id/searchMultiSpinnerUnlimited2"
-        app:layout_constraintTop_toBottomOf="@+id/searchMultiSpinnerUnlimited2" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/searchMultiSpinnerUnlimited" />
 
     <TextView
         android:id="@+id/textView5"
@@ -83,8 +73,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
-        android:layout_marginLeft="60dp"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="32dp"
         android:text="Optional:"
         app:layout_constraintEnd_toStartOf="@+id/button3"
         app:layout_constraintStart_toStartOf="parent"
@@ -95,8 +84,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
-        android:layout_marginLeft="60dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="24dp"
         android:text="Hours/Week planning on investing"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button3" />
@@ -106,7 +94,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="24dp"
         android:text="Preferred size of club"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/inputnumber" />
@@ -139,21 +127,6 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView7" />
-
-    <com.androidbuts.multispinnerfilter.MultiSpinnerSearch
-        android:id="@+id/searchMultiSpinnerUnlimited2"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="60dp"
-        android:layout_marginLeft="60dp"
-        android:layout_marginTop="15dp"
-        android:layout_marginEnd="60dp"
-        android:layout_marginRight="60dp"
-        app:hintText="Select purposes..."
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
     <Button
         android:id="@+id/button4"

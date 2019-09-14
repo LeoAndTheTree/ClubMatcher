@@ -107,19 +107,6 @@ public class Survey extends AppCompatActivity {
                 }
             }
         });
-        final ArrayList<String> output2 = new ArrayList<>();
-        MultiSpinnerSearch searchMultiSpinnerUnlimited2 = (MultiSpinnerSearch) findViewById(R.id.searchMultiSpinnerUnlimited2);
-        searchMultiSpinnerUnlimited2.setItems(listArray1, -1, new SpinnerListener() {
-            @Override
-            public void onItemsSelected(List<KeyPairBoolData> items) {
-                for (int i = 0; i < items.size(); i++) {
-                    if (items.get(i).isSelected()) {
-                        Log.i(TAG, i + " : " + items.get(i).getName() + " : " + items.get(i).isSelected());
-                        output2.add(items.get(i).getName());
-                    }
-                }
-            }
-        });
         final ArrayList<String> output3 = new ArrayList<>();
         MultiSpinnerSearch searchMultiSpinnerUnlimited3 = (MultiSpinnerSearch) findViewById(R.id.searchMultiSpinnerUnlimited3);
         searchMultiSpinnerUnlimited3.setItems(listArray2, -1, new SpinnerListener() {
