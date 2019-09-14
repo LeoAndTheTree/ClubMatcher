@@ -4,6 +4,7 @@ package com.example.clubmaker;
 import android.content.Context;
 import android.content.res.Resources;
 import android.renderscript.ScriptGroup;
+import android.util.Log;
 
 import java.lang.reflect.Array;
 import java.net.URL;
@@ -32,7 +33,7 @@ import java.net.*;
  * tagSatisfied(ArrayList<Tags> desired) - returns percent of tags satisfied
  * commitmentCap() - returns difference between club and user time, negative if club exceeds user commit time
  */
-public class Club
+public class Club implements Serializable
 {
 
     //public enum Tags = {Anime, Gaming, Piano};
@@ -44,6 +45,7 @@ public class Club
     public int clubTimeCommitment;
     public String clubNotes;
     public double score;
+    public List<String> description;
 
     public String toString(){
         return getName() + " " + clubMeetingTime[0] + " - " + clubMeetingTime[1] + " " + clubTags.get(0) + " size(" + clubSize + ") timecom(" + clubTimeCommitment + ")";
@@ -135,6 +137,13 @@ public class Club
     void setClubNotes(String notes)
     {
         clubNotes = notes;
+        List<String> temp = new ArrayList<>();
+        StringTokenizer st = new StringTokenizer(notes);
+        while(st.hasMoreTokens())
+        {
+            temp.add(st.nextToken());
+        }
+        description = temp;
     }
 
     String getClubNotes()
@@ -172,20 +181,22 @@ public class Club
         {
             for(int j = 0; j < clubTags.size(); j++)
             {
-                if(desired.get(i) == clubTags.get(j))
+                if(desired.get(i).equals(clubTags.get(j)))
                 {
                     totalTag++;
+                    Log.i("tag", "added");
+                    //int x = 3/0;
                     break;
                 }
             }
         }
-        return ((double) totalTag) / desired.size();
+        return ((double) totalTag);
     }
 
     //return int minutes, negative if clubTimeCommitment exceeds their time
     int commitmentCap(int commit)
     {
-        return commit - clubTimeCommitment;
+        return Math.min(commit - clubTimeCommitment, 0);
     }
 
     public static ArrayList<Club> loadClubList() throws IOException{

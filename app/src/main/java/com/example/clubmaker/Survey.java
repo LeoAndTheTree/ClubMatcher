@@ -20,6 +20,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.io.Serializable;
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -69,7 +70,7 @@ public class Survey extends AppCompatActivity {
                 "Student-Government",
                 "Sports-Martial Arts",
                 "Professional-Academic",
-                "Techonology",
+                "Technology",
                 "GreekLife",
                 "Service-Philanthropy",
                 "AnnualCampusEvent",
@@ -89,19 +90,6 @@ public class Survey extends AppCompatActivity {
 
         hourText = (EditText) findViewById(R.id.inputnumber);
         sizeText = (EditText) findViewById(R.id.inputnumber2);
-
-
-
-        final List<String> list1 = Arrays.asList("Resume buffing", "Fun", "Social activity", "Exploration", "Continued hobby", "Learning");
-        final List<KeyPairBoolData> listArray1 = new ArrayList<>();
-
-        for (int i = 0; i < list1.size(); i++) {
-            KeyPairBoolData h = new KeyPairBoolData();
-            h.setId(i + 1);
-            h.setName(list1.get(i));
-            h.setSelected(false);
-            listArray1.add(h);
-        }
 
         final List<String> list2 = Arrays.asList("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday");
         final List<KeyPairBoolData> listArray2 = new ArrayList<>();
@@ -222,20 +210,31 @@ public class Survey extends AppCompatActivity {
             clubPreference[i] = output1.get(i);
         }
 
-        student.setTypeOfClub(clubPreference);
-        try{
-        Matcher matcher = new Matcher (clubs, student);
-
-        sizeText.setText(matcher.topClubs(1).get(0).getName());}catch(Exception e){
-            sizeText.setText(e.getMessage());
+        String[] days = new String[output3.size()];
+        for(int i = 0; i < output3.size(); i++){
+            days[i] = output3.get(i);
         }
 
-        return;
+        if(!student.hasSchedule()){
+            student.setSchedule(ICSReader.generateCalendar(days));
+        }
+
+        student.setTypeOfClub(clubPreference);
+
+
+        Matcher matcher = new Matcher (clubs, student);
+
+        Intent sendMatcher = new Intent(Survey.this, Results.class);
+        sendMatcher.putExtra("matcher", matcher);
+        startActivity(new Intent(Survey.this, Results.class));
+
+        startActivity(sendMatcher);
+
+
 
         //calculate matches
 
         //send
 
-        //startActivity(new Intent(Survey.this, Results.class));
     }
 }

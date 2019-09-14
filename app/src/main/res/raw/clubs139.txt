@@ -1,6 +1,6 @@
-NAME Carnegie Mellon Tricking Club
+NAME AC Mellon Men's Soccer Team
 TAG Sports-Martial Arts 
-SIZE 22
-MEETINGTIME 9630 9689
+SIZE 14
+MEETINGTIME 4140 4199
 TIMECOM 60
-NOTES 
+NOTES AC Mellon is the men's club soccer team. The team plays against other colleges within our region. For more information, please contact Tobias Junker: tobiasj@andrew.cmu.edu .

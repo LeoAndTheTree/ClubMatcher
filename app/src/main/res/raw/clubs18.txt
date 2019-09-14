@@ -1,6 +1,6 @@
-NAME Hillel Jewish Students Association
-TAG Multicultural 
-SIZE 39
-MEETINGTIME 9600 9659
+NAME Agape Christian Ministry
+TAG Religious-Spiritual 
+SIZE 31
+MEETINGTIME 9750 9809
 TIMECOM 60
-NOTES 
+NOTES Founded in 1996 For more information, please contact Samuel Rainey: sir@andrew.cmu.edu .

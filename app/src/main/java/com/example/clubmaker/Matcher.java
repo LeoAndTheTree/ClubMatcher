@@ -1,23 +1,63 @@
 package com.example.clubmaker;
 
+import android.util.Log;
+
+import java.io.Serializable;
 import java.util.*;
 import java.lang.Math;
 import java.util.ArrayList;
 
-public class Matcher {
+public class Matcher implements Serializable {
     private ArrayList<Club> clubs;
     private Student student;
-    private int[] hyperparams = new int[]{1,1,1,50};
+    //clubsize, time, conflict, satisfy
+    private int[] hyperparams = new int[]{10,1,1,40};
 
     Matcher(ArrayList<Club> inClubs, Student inStudent){
         clubs = inClubs;
         student = inStudent;
     }
 
+    public int getIndexOfLargest( double[] array )
+    {
+        if ( array == null || array.length == 0 ) return -1;
+
+        int largest = 0;
+        for ( int i = 1; i < array.length; i++ )
+        {
+            if ( array[i] > array[largest] ) largest = i;
+        }
+        return largest;
+    }
+
     ArrayList<Club> topClubs(int topk){
+        Log.i("club", clubs.get(0).toString());
+
+        List<List<String>> documents = new ArrayList<List<String>>();
+
         for (Club candidate: clubs){
             candidate.score = heuristic(candidate);
+            documents.add(candidate.description);
         }
+
+        List<String> student_des = student.comment;
+
+        documents.add(student_des);
+
+        TFIDF calc = new TFIDF();
+
+        double[] tfscores = new double[clubs.size()];
+
+        for (int i =0; i< student_des.size(); i++)
+        {
+            for (int j =0; j< documents.size(); j++) {
+                tfscores[j] = calc.calc_TFIDF(student_des, documents, student_des.get(j));
+            }
+
+            int indexoflargest = getIndexOfLargest(tfscores);
+            clubs.get(indexoflargest).score = clubs.get(indexoflargest).score*1.01;
+        }
+
         Collections.sort(clubs, new ClubComparator());
 
         ArrayList<Club> tclubs = new ArrayList<Club>();
@@ -33,15 +73,22 @@ public class Matcher {
         int size = student.clubsize;
         ArrayList<String> tags = new ArrayList<String>(Arrays.asList(student.typeOfClub));
 
+        //size difference, the more negative the worse 0, -1
         double score1 = -1*Math.abs((double)size - candidate.clubSize)/candidate.clubSize;
 
+        //minutes above exceed commitments, 0 or badly negative
         double score2 = candidate.commitmentCap(commit);
 
+        //minutes conflicting large number
         double score3 = -1*candidate.timeConflict(schedule);
 
+        //comment tags
         double score4 = candidate.tagSatisfied(tags);
 
-        double finalScore = hyperparams[3]*score4*(hyperparams[0]*score1)+ hyperparams[1]*score2 + hyperparams[2]*score3;
+        //tags * sizedifference +
+        double finalScore = hyperparams[3]*score4 + (hyperparams[0]*score1)+ hyperparams[1]*score2 + hyperparams[2]*score3;
+
+        Log.i("indiv_scores", score1 + " " + score2 + " " +  score3 + " " +  score4);
 
         return finalScore;
     }

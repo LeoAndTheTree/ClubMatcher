@@ -1,6 +1,6 @@
-NAME Camp Kesem Carnegie Mellon
-TAG Service-Philanthropy Sports-Martial Arts 
-SIZE 14
-MEETINGTIME 9720 9779
+NAME Biomedical Engineering Society, Carnegie Mellon Chapter
+TAG Professional-Academic 
+SIZE 90
+MEETINGTIME 6960 7019
 TIMECOM 60
-NOTES 
+NOTES CMU BMES's mission is to promote the profession of Biomedical Engineering through organized study, research, social, and industry immersed activities. For more information, please contact Shayan Gupta: shayang@andrew.cmu.edu .

@@ -1,6 +1,9 @@
 package com.example.clubmaker;
 
+import java.io.Serializable;
 import java.util.ArrayList;
+import java.util.List;
+import java.util.StringTokenizer;
 
 /*
 * public void setTimeCommitment(int timeCommitment);
@@ -17,11 +20,24 @@ import java.util.ArrayList;
 * public boolean hasClubsize();
 * */
 
-public class Student {
+public class Student implements Serializable {
     int timeCommitment = 0;
     ArrayList<int[]> schedule;
     String[] typeOfClub;
     int clubsize = 0;
+    public List<String> comment;
+
+    //call this to initiate comment;
+    public void setComment(String in){
+
+        List<String> temp = new ArrayList<>();
+        StringTokenizer st = new StringTokenizer(in);
+        while(st.hasMoreTokens())
+        {
+            temp.add(st.nextToken());
+        }
+        comment = temp;
+    }
 
     public void setTimeCommitment(int timeCommitment) {
         this.timeCommitment = timeCommitment;

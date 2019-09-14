@@ -1,6 +1,6 @@
-NAME All University Orchestra
-TAG Performance-Artistic 
-SIZE 23
-MEETINGTIME 1080 1199
-TIMECOM 120
-NOTES 
+NAME Animal Welfare Club
+TAG Sports-Martial Arts Service-Philanthropy 
+SIZE 41
+MEETINGTIME 11040 11099
+TIMECOM 60
+NOTES Animal Welfare Club is a platform for animal lovers to congregate. It is intended to be a space in Carnegie Mellon University where those interested in helping animals can do so in whatever capacity they can. For more information, please contact Maduran Palaniswamy: maduranp@andrew.cmu.edu .

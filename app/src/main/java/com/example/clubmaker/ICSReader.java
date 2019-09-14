@@ -91,4 +91,46 @@ public class ICSReader extends AppCompatActivity {
         return output;
     }
 
+    public static ArrayList<int[]> generateCalendar(String[] days){
+        //list of names in days will be mon - sun where you could work, set all others to false.
+        ArrayList<int[]> output = new ArrayList<>();
+        if(!contains(days, "Monday")){
+            int[] a = {0, 1439};
+            output.add(a);
+        }
+        if(!contains(days, "Tuesday")){
+            int[] a = {1440, 2879};
+            output.add(a);
+        }
+        if(!contains(days, "Wednesday")){
+            int[] a = {2880, 4319};
+            output.add(a);
+        }
+        if(!contains(days, "Thursday")){
+            int[] a = {4320, 5759};
+            output.add(a);
+        }
+        if(!contains(days, "Friday")){
+            int[] a = {5760, 7199};
+            output.add(a);
+        }
+        if(!contains(days, "Saturday")){
+            int[] a = {7200, 8639};
+            output.add(a);
+        }
+        if(!contains(days, "Sunday")){
+            int[] a = {8640, 10800};
+            output.add(a);
+        }
+        return output;
+    }
+
+    private static boolean contains(String[] x, String y){
+        for(int i = 0; i < x.length; i++){
+            if(x[i].equals(y)){
+                return true;
+            }
+        }
+        return false;
+    }
 }

@@ -1,6 +1,6 @@
-NAME Study Abroad
-TAG Gaming 
-SIZE 81
-MEETINGTIME 3930 3989
+NAME Alpha Phi
+TAG GreekLife 
+SIZE 53
+MEETINGTIME 1260 1319
 TIMECOM 60
-NOTES 
+NOTES Joining Alpha Phi opens the door to sisterhood, meaningful friendships, and a network of over 200,000 members internationally! For more information, please contact Cassie Scanlon: cscanlon@andrew.cmu.edu .
