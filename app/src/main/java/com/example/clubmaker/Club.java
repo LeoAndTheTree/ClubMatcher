@@ -1,10 +1,12 @@
 //this is a test java file
 package com.example.clubmaker;
 
+import java.lang.reflect.Array;
+import java.net.URL;
 import java.util.*;
 import java.lang.Math;
 import java.util.ArrayList;
-
+import java.io.*;
 
 
 /* setName(string name)
@@ -176,4 +178,52 @@ public class Club
     {
         return commit - clubTimeCommitment;
     }
+
+    public static ArrayList<Club> loadClubList() throws IOException{
+        ArrayList<Club> clublist = new ArrayList<>();
+        for(int i = 1; i < 3; i++){
+            clublist.add(loadClub("https://raw.githubusercontent.com/LeoAndTheTree/CMUClub/master/Club"+i+".txt"));
+        }
+        return clublist;
+    }
+
+    public static Club loadClub(String directpath) throws IOException
+    {
+        Club newClub = new Club();
+        URL url = new URL(directpath);
+        //File dir = new File(directpath);
+        if(url != null)
+        {
+            BufferedReader bf = new BufferedReader(new InputStreamReader(url.openStream())); //new BufferedReader(new FileReader(dir));
+            StringTokenizer st;
+
+            newClub.setName(bf.readLine().substring(5));
+            st = new StringTokenizer(bf.readLine());
+
+            st.nextToken();
+            ArrayList<String> tagList = new ArrayList<String>();
+            while(st.hasMoreTokens())
+            {
+                tagList.add(st.nextToken());
+            }
+            newClub.setTags(tagList);
+            st = new StringTokenizer(bf.readLine());
+
+            st.nextToken(); newClub.setClubSize(Integer.parseInt(st.nextToken()));
+            st = new StringTokenizer(bf.readLine());
+            
+            st.nextToken();
+            int[] startend = {Integer.parseInt(st.nextToken()), Integer.parseInt(st.nextToken())};
+            newClub.clubMeetingTime=(startend);
+            st = new StringTokenizer(bf.readLine());
+
+            st.nextToken(); newClub.setTimeCommitment(Integer.parseInt(st.nextToken()));
+            
+            newClub.setClubNotes(bf.readLine().substring(6));
+
+            bf.close();
+        }
+        return newClub;
+    }
+
 }
