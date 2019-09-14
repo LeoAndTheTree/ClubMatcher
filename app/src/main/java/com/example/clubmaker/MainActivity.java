@@ -6,6 +6,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -19,11 +20,18 @@ import java.io.StringReader;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Date;
+import java.util.List;
 import java.util.Objects;
 import java.util.Calendar;
 
+import com.androidbuts.multispinnerfilter.KeyPairBoolData;
+import com.androidbuts.multispinnerfilter.MultiSpinnerSearch;
+import com.androidbuts.multispinnerfilter.SpinnerListener;
+
 public class MainActivity extends AppCompatActivity {
+    private static final String TAG = "MainActivity";
 
     private static final int READ_REQUEST_CODE = 42;
     private TextView displayICS = null;
@@ -36,6 +44,61 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        final List<String> list = Arrays.asList("Im", "Just", "gonna", "fill", "in", "random", "shit");
+
+        final List<KeyPairBoolData> listArray0 = new ArrayList<>();
+
+        for (int i = 0; i < list.size(); i++) {
+            KeyPairBoolData h = new KeyPairBoolData();
+            h.setId(i + 1);
+            h.setName(list.get(i));
+            h.setSelected(false);
+            listArray0.add(h);
+        }
+
+        final List<KeyPairBoolData> listArray1 = new ArrayList<>();
+
+        for (int i = 0; i < list.size(); i++) {
+            KeyPairBoolData h = new KeyPairBoolData();
+            h.setId(i + 1);
+            h.setName(list.get(i));
+            h.setSelected(false);
+            listArray1.add(h);
+        }
+
+        final List<KeyPairBoolData> listArray2 = new ArrayList<>();
+
+        for (int i = 0; i < list.size(); i++) {
+            KeyPairBoolData h = new KeyPairBoolData();
+            h.setId(i + 1);
+            h.setName(list.get(i));
+            h.setSelected(false);
+            listArray2.add(h);
+        }
+        final List<KeyPairBoolData> listArray3 = new ArrayList<>();
+
+        for (int i = 0; i < list.size(); i++) {
+            KeyPairBoolData h = new KeyPairBoolData();
+            h.setId(i + 1);
+            h.setName(list.get(i));
+            h.setSelected(false);
+            listArray3.add(h);
+        }
+        MultiSpinnerSearch searchMultiSpinnerUnlimited = (MultiSpinnerSearch) findViewById(R.id.searchMultiSpinnerUnlimited);
+
+        searchMultiSpinnerUnlimited.setItems(listArray0, -1, new SpinnerListener() {
+
+            @Override
+            public void onItemsSelected(List<KeyPairBoolData> items) {
+
+                for (int i = 0; i < items.size(); i++) {
+                    if (items.get(i).isSelected()) {
+                        Log.i(TAG, i + " : " + items.get(i).getName() + " : " + items.get(i).isSelected());
+                    }
+                }
+            }
+        });
 
         displayICS = (TextView) findViewById (R.id.textView2);
         displayICS.setText("");
