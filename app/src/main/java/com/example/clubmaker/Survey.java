@@ -169,7 +169,16 @@ public class Survey extends AppCompatActivity {
         }
         return stringBuilder.toString();
     }
+
     public void enterResults(View v){
+        //attach information for clubs
+
+        //attach information for student
+
+        //calculate matches
+
+        //send 
+
         startActivity(new Intent(Survey.this, Results.class));
     }
 }
