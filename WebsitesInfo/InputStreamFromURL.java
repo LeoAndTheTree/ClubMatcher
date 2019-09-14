@@ -10,10 +10,15 @@ import java.net.URL;
 import java.net.URLConnection;
 
 class InputStreamFromURL{
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws Exception {
+        printPage();
+        //System.out.println(Club.loadClub("https://raw.githubusercontent.com/LeoAndTheTree/CMUClub/master/Club1.txt").toString());
+    }
+
+    public static void printPage() throws IOException{
 
         // Make a URL to the web page
-        URL url = new URL("https://raw.githubusercontent.com/LeoAndTheTree/CMUClub/master/Club1.txt");
+        URL url = new URL("https://thebridge.cmu.edu/organization/foosball");
 
         // Get the input stream through URL Connection
         URLConnection con = url.openConnection();
@@ -37,4 +42,6 @@ class InputStreamFromURL{
             System.out.println(line);
         }
     }
+
+
 }

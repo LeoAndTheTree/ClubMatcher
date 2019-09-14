@@ -1,0 +1,6 @@
+NAME ACM@CMU
+TAG Technology Computers Learning
+SIZE 66
+MEETINGTIME 5370 5430
+TIMECOM 120
+NOTES ACM@CMU is the official student chapter of the Association for Computing Machinery.

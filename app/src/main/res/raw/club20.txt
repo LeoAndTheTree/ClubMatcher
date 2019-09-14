@@ -1,0 +1,6 @@
+NAME All University Orchestra
+TAG Music
+SIZE 100
+MEETINGTIME 2520 2640
+TIMECOM 120
+NOTES All University Orchestra is a community of CMU undergrads, graduate students, staff, and faculty who love to make music. Everyone is welcome to participate!

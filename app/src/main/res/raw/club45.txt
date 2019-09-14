@@ -1,0 +1,6 @@
+NAME Artist Alley Club
+TAG Art Event Hobby Anime Job
+SIZE 38
+MEETINGTIME 8820 8900
+TIMECOM 60
+NOTES In anime and comic conventions, there is a section for independent artists to sell their work. This is called the "artist alley".

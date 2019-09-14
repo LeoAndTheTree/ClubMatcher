@@ -8,6 +8,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
@@ -19,6 +20,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -26,6 +28,31 @@ import java.util.Objects;
 
 public class Survey extends AppCompatActivity {
     private static final String TAG = "Survey";
+
+
+    private static final int READ_REQUEST_CODE = 42;
+    private Student student = new Student ();
+
+    private ICSReader reader = new ICSReader();
+
+    public void pickCalendar(View view){
+        Intent intent = new Intent(Intent.ACTION_OPEN_DOCUMENT);
+
+        // Filter to only show results that can be "opened", such as a
+        // file (as opposed to a list of contacts or timezones)
+        intent.addCategory(Intent.CATEGORY_OPENABLE);
+
+        // Filter to show only images, using the image MIME data type.
+        // If one wanted to search for ogg vorbis files, the type would be "audio/ogg".
+        // To search for all documents available via installed storage providers,
+        // it would be "*/*".
+        //text/calendar
+        intent.setType("text/calendar");
+
+        startActivityForResult(intent, READ_REQUEST_CODE);
+    }
+    EditText sizeText;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -41,6 +68,8 @@ public class Survey extends AppCompatActivity {
             h.setSelected(false);
             listArray0.add(h);
         }
+
+        sizeText = (EditText) findViewById(R.id.inputnumber);
 
 
 
@@ -101,27 +130,6 @@ public class Survey extends AppCompatActivity {
         });
     }
 
-    private static final int READ_REQUEST_CODE = 42;
-    private Student student = new Student ();
-
-    private ICSReader reader = new ICSReader();
-
-    public void pickCalendar(View view){
-        Intent intent = new Intent(Intent.ACTION_OPEN_DOCUMENT);
-
-        // Filter to only show results that can be "opened", such as a
-        // file (as opposed to a list of contacts or timezones)
-        intent.addCategory(Intent.CATEGORY_OPENABLE);
-
-        // Filter to show only images, using the image MIME data type.
-        // If one wanted to search for ogg vorbis files, the type would be "audio/ogg".
-        // To search for all documents available via installed storage providers,
-        // it would be "*/*".
-        //text/calendar
-        intent.setType("text/calendar");
-
-        startActivityForResult(intent, READ_REQUEST_CODE);
-    }
 
     private Uri uri = null;
 
@@ -170,14 +178,29 @@ public class Survey extends AppCompatActivity {
         return stringBuilder.toString();
     }
 
-    public void enterResults(View v){
+    public void enterResults(View v) throws IOException{
         //attach information for clubs
+        ArrayList<Club> clubs = new ArrayList<>();
+
+        for (int i = 1; i <= 10; i++){
+            String file = "club" + i;
+            InputStream ins = getResources().openRawResource(
+                    getResources().getIdentifier(file,
+                            "raw", getPackageName()));
+            clubs.add(Club.loadClub(ins));
+        }
 
         //attach information for student
-
+        try{
+        student.setClubsize(Integer.parseInt(sizeText.getText().toString()));
+        } catch (Exception e){
+            sizeText.setText("Please input a method");
+            return;
+        }
+        
         //calculate matches
 
-        //send 
+        //send
 
         startActivity(new Intent(Survey.this, Results.class));
     }
