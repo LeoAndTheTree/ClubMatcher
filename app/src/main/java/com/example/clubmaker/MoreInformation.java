@@ -2,7 +2,9 @@ package com.example.clubmaker;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
 import org.w3c.dom.Text;
@@ -23,5 +25,8 @@ public class MoreInformation extends AppCompatActivity {
         club = (Club) getIntent().getSerializableExtra("club");
         clubName.setText(club.getName());
         clubInfo.setText(club.getClubNotes());
+    }
+    public void enterMain(View v) {
+        startActivity(new Intent(MoreInformation.this, MainActivity.class));
     }
 }
