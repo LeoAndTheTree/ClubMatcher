@@ -1,0 +1,6 @@
+NAME Actuarial Club
+TAG Professional-Academic 
+SIZE 62
+MEETINGTIME 5430 5489
+TIMECOM 60
+NOTES 

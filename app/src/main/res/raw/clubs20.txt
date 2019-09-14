@@ -1,0 +1,6 @@
+NAME Roosevelt Institute at CMU
+TAG Political-Activism 
+SIZE 73
+MEETINGTIME 11100 11219
+TIMECOM 120
+NOTES 

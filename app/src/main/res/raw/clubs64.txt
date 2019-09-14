@@ -1,0 +1,6 @@
+NAME Game Creation Society
+TAG Gaming 
+SIZE 97
+MEETINGTIME 4080 4139
+TIMECOM 60
+NOTES 

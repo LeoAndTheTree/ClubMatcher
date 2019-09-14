@@ -1,0 +1,6 @@
+NAME Alpha Epsilon Delta
+TAG Professional-Academic 
+SIZE 20
+MEETINGTIME 4170 4229
+TIMECOM 60
+NOTES 

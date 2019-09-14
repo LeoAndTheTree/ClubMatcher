@@ -1,0 +1,6 @@
+NAME American Society of Civil Engineers
+TAG Professional-Academic 
+SIZE 87
+MEETINGTIME 2520 2639
+TIMECOM 120
+NOTES 

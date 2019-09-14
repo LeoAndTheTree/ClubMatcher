@@ -1,0 +1,6 @@
+NAME Christians on Campus
+TAG Religious-Spiritual 
+SIZE 19
+MEETINGTIME 9900 9959
+TIMECOM 60
+NOTES 

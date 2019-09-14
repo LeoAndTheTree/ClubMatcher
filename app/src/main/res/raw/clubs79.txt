@@ -1,0 +1,6 @@
+NAME AC Mellon Men's Soccer Team
+TAG Sports-Martial Arts 
+SIZE 41
+MEETINGTIME 3960 4019
+TIMECOM 60
+NOTES 

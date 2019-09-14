@@ -1,0 +1,6 @@
+NAME Joint Funding Committee
+TAG Student-Government Techonology 
+SIZE 11
+MEETINGTIME 11160 11279
+TIMECOM 120
+NOTES 

@@ -1,0 +1,6 @@
+NAME CMU Cyphers
+TAG Performance-Artistic 
+SIZE 77
+MEETINGTIME 2640 2699
+TIMECOM 60
+NOTES 

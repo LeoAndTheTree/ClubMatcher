@@ -1,0 +1,6 @@
+NAME Alpha Phi Alpha Fraternity Inc. 
+TAG GreekLife 
+SIZE 71
+MEETINGTIME 3960 4019
+TIMECOM 60
+NOTES 

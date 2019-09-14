@@ -1,0 +1,6 @@
+NAME College Republicans Club
+TAG Political-Activism 
+SIZE 26
+MEETINGTIME 11400 11519
+TIMECOM 120
+NOTES 

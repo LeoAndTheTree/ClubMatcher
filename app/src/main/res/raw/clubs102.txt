@@ -1,0 +1,6 @@
+NAME AB Tech
+TAG GeneralInterestAndInvolvement 
+SIZE 72
+MEETINGTIME 9870 9929
+TIMECOM 60
+NOTES 

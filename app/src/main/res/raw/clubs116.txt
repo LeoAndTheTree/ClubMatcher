@@ -1,0 +1,6 @@
+NAME Alpine Racing & Freestyle Team
+TAG Sports-Martial Arts 
+SIZE 78
+MEETINGTIME 5550 5609
+TIMECOM 60
+NOTES 

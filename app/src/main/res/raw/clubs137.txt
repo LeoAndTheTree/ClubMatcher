@@ -1,0 +1,6 @@
+NAME Carnegie Mellon University Figure Skating Club
+TAG Sports-Martial Arts 
+SIZE 31
+MEETINGTIME 2520 2639
+TIMECOM 120
+NOTES 

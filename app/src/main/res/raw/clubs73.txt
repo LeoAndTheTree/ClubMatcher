@@ -1,0 +1,6 @@
+NAME Camp Kesem Carnegie Mellon
+TAG Service-Philanthropy Sports-Martial Arts 
+SIZE 14
+MEETINGTIME 9720 9779
+TIMECOM 60
+NOTES 

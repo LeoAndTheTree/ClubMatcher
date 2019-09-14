@@ -1,6 +1,0 @@
-NAME Activities Board
-TAG Event Planning Organization 
-SIZE 43
-MEETINGTIME 3810 3930
-TIMECOM 210
-NOTES The Activities Board of Carnegie Mellon University coordinates a wide variety of events to entertain, educate, and enrich the lives of the campus community.

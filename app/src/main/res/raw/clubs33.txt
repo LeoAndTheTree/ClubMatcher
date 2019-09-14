@@ -1,0 +1,6 @@
+NAME Carnegie Tech Radio Club
+TAG Techonology 
+SIZE 41
+MEETINGTIME 5580 5699
+TIMECOM 120
+NOTES 

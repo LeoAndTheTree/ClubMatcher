@@ -1,0 +1,6 @@
+NAME Carnegie Mellon Rocket Command
+TAG Techonology 
+SIZE 86
+MEETINGTIME 11370 11429
+TIMECOM 60
+NOTES 

@@ -1,0 +1,6 @@
+NAME CMU Energy Science and Innovation Club
+TAG Techonology 
+SIZE 91
+MEETINGTIME 3870 3989
+TIMECOM 120
+NOTES 

@@ -1,0 +1,6 @@
+NAME Alpha Omega
+TAG Religious-Spiritual 
+SIZE 18
+MEETINGTIME 5580 5699
+TIMECOM 120
+NOTES 

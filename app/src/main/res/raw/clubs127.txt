@@ -1,0 +1,6 @@
+NAME Asian Christian Fellowship
+TAG Religious-Spiritual 
+SIZE 56
+MEETINGTIME 8190 8249
+TIMECOM 60
+NOTES 

@@ -1,6 +1,0 @@
-NAME AB Cafe
-TAG social
-SIZE 30
-MEETINGTIME 3960 4020
-TIMECOM 60
-NOTES A permanent committee that organizes regular social events in Skibo Cafe.

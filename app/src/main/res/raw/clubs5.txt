@@ -1,0 +1,6 @@
+NAME CMU Blockchain Group
+TAG Techonology 
+SIZE 95
+MEETINGTIME 1200 1259
+TIMECOM 60
+NOTES 

@@ -1,0 +1,6 @@
+NAME Filipino Student Association
+TAG Multicultural 
+SIZE 50
+MEETINGTIME 11400 11519
+TIMECOM 120
+NOTES 

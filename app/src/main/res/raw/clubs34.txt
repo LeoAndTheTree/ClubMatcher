@@ -1,0 +1,6 @@
+NAME re:verb
+TAG MediaAndPublications Performance-Artistic Political-Activism Multicultural 
+SIZE 27
+MEETINGTIME 6840 6899
+TIMECOM 60
+NOTES 

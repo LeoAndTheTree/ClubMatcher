@@ -1,0 +1,6 @@
+NAME AB Lectures
+TAG GeneralInterestAndInvolvement 
+SIZE 28
+MEETINGTIME 1200 1259
+TIMECOM 60
+NOTES 

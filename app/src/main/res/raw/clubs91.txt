@@ -1,0 +1,6 @@
+NAME Black Graduate Students Organization
+TAG Multicultural 
+SIZE 19
+MEETINGTIME 5520 5639
+TIMECOM 120
+NOTES 

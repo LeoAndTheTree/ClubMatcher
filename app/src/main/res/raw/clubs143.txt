@@ -1,0 +1,6 @@
+NAME Alpha Phi Omega
+TAG Service-Philanthropy 
+SIZE 61
+MEETINGTIME 11370 11489
+TIMECOM 120
+NOTES 

@@ -1,0 +1,6 @@
+NAME Asian Students Association
+TAG Multicultural 
+SIZE 92
+MEETINGTIME 9960 10019
+TIMECOM 60
+NOTES 
