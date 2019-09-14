@@ -27,6 +27,6 @@ public class MoreInformation extends AppCompatActivity {
         clubInfo.setText(club.getClubNotes());
     }
     public void enterMain(View v) {
-        startActivity(new Intent(MoreInformation.this, MainActivity.class));
+        startActivity(new Intent(MoreInformation.this, Results.class));
     }
 }
