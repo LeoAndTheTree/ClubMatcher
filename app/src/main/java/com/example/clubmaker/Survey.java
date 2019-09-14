@@ -30,7 +30,7 @@ public class Survey extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_survey);
-        
+
         final List<String> list = Arrays.asList("Anime", "Music", "Gaming", "Sports", "Math", "Computer Science", "Art");
         final List<KeyPairBoolData> listArray0 = new ArrayList<>();
 
@@ -168,5 +168,8 @@ public class Survey extends AppCompatActivity {
             }
         }
         return stringBuilder.toString();
+    }
+    public void enterResults(View v){
+        startActivity(new Intent(Survey.this, Results.class));
     }
 }
