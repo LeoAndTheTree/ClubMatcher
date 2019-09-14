@@ -28,11 +28,11 @@ import java.util.ArrayList;
 public class Club
 {
 
-    public enum Tags {ANIME, GAMING, PIANO};//temp SHOULD DELETE AFTER TAGS ENUM CLASS IMPORTED
+    //public enum Tags = {Anime, Gaming, Piano};
 
     private String clubName;
     private int[] clubMeetingTime = new int[2];
-    private ArrayList<Tags> clubTags = new ArrayList<Tags>();
+    private ArrayList<String> clubTags = new ArrayList<String>();
     private int clubSize;
     private int clubTimeCommitment;
     private String clubNotes;
@@ -53,7 +53,7 @@ public class Club
         return clubName;
     }
 
-    void setTags(ArrayList<Tags> append)
+    void setTags(ArrayList<String> append)
     {
         for(int i = 0; i < append.size(); i++)
         {
@@ -61,7 +61,7 @@ public class Club
         }
     }
 
-    ArrayList<Tags> getTags()
+    ArrayList<String> getTags()
     {
         return clubTags;
     }
@@ -142,7 +142,7 @@ public class Club
     }
 
     //returns the percent of tags satisfied
-    double tagSatisfied(ArrayList<Tags> desired)
+    double tagSatisfied(ArrayList<String> desired)
     //@ensures 0 <= \result && \result <= 1
     {
         if(desired.size() == 0) return (double)1;
