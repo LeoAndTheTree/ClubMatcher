@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.pratikbutani:MultiSelectSpinner:-SNAPSHOT@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f64ef92d5f146979948630a07d9c4b51/jetified-MultiSelectSpinner--SNAPSHOT/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f64ef92d5f146979948630a07d9c4b51/jetified-MultiSelectSpinner--SNAPSHOT/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.pratikbutani/MultiSelectSpinner/-SNAPSHOT/db09bd5dfc8f74afff1218280b877e2fc4afa377/MultiSelectSpinner--SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
