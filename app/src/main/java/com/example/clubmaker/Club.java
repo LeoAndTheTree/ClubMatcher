@@ -32,7 +32,7 @@ import java.net.*;
  * tagSatisfied(ArrayList<Tags> desired) - returns percent of tags satisfied
  * commitmentCap() - returns difference between club and user time, negative if club exceeds user commit time
  */
-public class Club
+public class Club implements Serializable
 {
 
     //public enum Tags = {Anime, Gaming, Piano};

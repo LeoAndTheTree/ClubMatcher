@@ -27,7 +27,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Objects;
 
-public class Survey extends AppCompatActivity implements Serializable {
+public class Survey extends AppCompatActivity {
     private static final String TAG = "Survey";
 
 
@@ -220,18 +220,20 @@ public class Survey extends AppCompatActivity implements Serializable {
         }
 
         student.setTypeOfClub(clubPreference);
+
+
         Matcher matcher = new Matcher (clubs, student);
-        Intent sendMatcher = new Intent();
+
+        Intent sendMatcher = new Intent(Survey.this, Results.class);
         sendMatcher.putExtra("matcher", matcher);
+        startActivity(sendMatcher);
 
 
-
-        return;
 
         //calculate matches
 
         //send
 
-        //startActivity(new Intent(Survey.this, Results.class));
+        startActivity(new Intent(Survey.this, Results.class));
     }
 }

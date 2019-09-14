@@ -1,5 +1,6 @@
 package com.example.clubmaker;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 
 /*
@@ -17,7 +18,7 @@ import java.util.ArrayList;
 * public boolean hasClubsize();
 * */
 
-public class Student {
+public class Student implements Serializable {
     int timeCommitment = 0;
     ArrayList<int[]> schedule;
     String[] typeOfClub;
