@@ -80,9 +80,9 @@ public class MainActivity extends AppCompatActivity {
             }
             try{
                 String output = readTextFromUri(uri);
-                displayICS.setText(output);
+                //displayICS.setText(output);
                 ArrayList<int[]> calsses = parseICS(output);
-                displayICS.setText(calsses.get(0)[0] + " " + calsses.get(0)[1]);
+                //displayICS.setText(calsses.get(0)[0] + " " + calsses.get(0)[1]);
             } catch (IOException e) {}
         }
     }
@@ -114,7 +114,9 @@ public class MainActivity extends AppCompatActivity {
                             hour = Integer.parseInt(line.substring(split+10, split+12));
                             minute = Integer.parseInt(line.substring(split+12, split+14));
                             day_of_week = (c.get(Calendar.DAY_OF_WEEK) -2 + 7) % 7;
-                            fminFromMon = day_of_week * 1440 + hour * 60 * minute;
+                            fminFromMon = day_of_week * 1440 + hour * 60 + minute;
+                            //displayICS.append(fminFromMon + "\n");
+                            //displayICS.append(day_of_week + " " + hour + " " + minute + "\n");
                             //displayICS.setText(c.toString());
                             //displayICS.setText(year + " " + month + " " + day + " " + day_of_week.toString());
                             break;
@@ -127,7 +129,9 @@ public class MainActivity extends AppCompatActivity {
                             hour = Integer.parseInt(line.substring(split+10, split+12));
                             minute = Integer.parseInt(line.substring(split+12, split+14));
                             day_of_week = (c.get(Calendar.DAY_OF_WEEK) -2 + 7) % 7;
-                            sminFromMon = day_of_week * 1440 + hour * 60 * minute;
+                            sminFromMon = day_of_week * 1440 + hour * 60 + minute;
+                            //displayICS.append(day_of_week + " " + hour + " " + minute + "\n");
+                            //displayICS.append(fminFromMon + " " + sminFromMon + "\n");
                             int[] o = {fminFromMon, sminFromMon};
                             output.add(o);
                             break;
