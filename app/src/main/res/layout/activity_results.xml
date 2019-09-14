@@ -81,8 +81,10 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="80dp"
         android:layout_marginTop="60dp"
+        android:layout_marginEnd="80dp"
         android:text="HERE ARE YOUR TOP 5 CLUBS"
         android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
